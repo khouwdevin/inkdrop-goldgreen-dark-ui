@@ -3,7 +3,7 @@
  * https://github.com/fomantic/Fomantic-UI
  * http://fomantic-ui.com/
  *
- * Copyright 2021 Contributors
+ * Copyright 2022 Contributors
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
@@ -1479,8 +1479,8 @@ input::selection {
   /*-------------------
         Side Bar
   --------------------*/
-  --sidebar-background: rgba(0, 0, 0, 0.2);
-  --sidebar-menu-item-active-background: rgba(0, 0, 0, 0.2);
+  --sidebar-background: rgba(10, 10, 10, 0.7);
+  --sidebar-menu-item-active-background: #715309;
   --sidebar-menu-section-color: rgba(255, 255, 255, 0.5);
   --sidebar-menu-item-color: #DDDDDD;
   --sidebar-menu-action-color: rgba(255, 255, 255, 0.5);
@@ -1490,29 +1490,29 @@ input::selection {
   --sidebar-sync-status-view-text-color: #DDDDDD;
   --sidebar-sync-status-view-detail-color: rgba(255, 255, 255, 0.5);
   --sidebar-scrollbar-width: 6px;
-  --sidebar-scrollbar-track-background: rgba(0, 0, 0, 0.02);
-  --sidebar-scrollbar-thumb-background: rgba(255, 255, 255, 0.1);
+  --sidebar-scrollbar-track-background: rgba(80, 80, 80, 0.2);
+  --sidebar-scrollbar-thumb-background: #248f86;
   /*-------------------
         Scroll Bar
   --------------------*/
   --scrollbar-width: 6px;
-  --scrollbar-track-background: rgba(0, 0, 0, 0.02);
-  --scrollbar-thumb-background: rgba(255, 255, 255, 0.1);
+  --scrollbar-track-background: rgba(80, 80, 80, 0.2);
+  --scrollbar-thumb-background: #04549a;
   /*-------------------
         Note List Bar
   --------------------*/
-  --note-list-bar-background: rgba(0, 0, 0, 0.4);
+  --note-list-bar-background: rgba(30, 30, 30, 0.7);
   --note-list-bar-pinned-section-header-background: rgba(255, 255, 255, 0.05);
   --note-list-bar-pinned-section-header-border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   --note-list-bar-pinned-section-footer-border-bottom: 4px solid rgba(255, 255, 255, 0.2);
   --note-list-view-item-color: rgba(255, 255, 255, 0.6);
   --note-list-view-item-separator-border: 1px solid #2E3235;
-  --note-list-view-item-date-color: #6987AF;
-  --note-list-view-item-tag-color: #6987AF;
-  --note-list-view-item-active-background: #6987AF80;
+  --note-list-view-item-date-color: #918023;
+  --note-list-view-item-tag-color: #1e72ba;
+  --note-list-view-item-active-background: #a0760a;
   --note-list-view-item-active-color: #DDDDDD;
-  --note-list-view-item-active-date-color: #DDDDDD;
-  --note-list-view-item-active-tag-color: #DDDDDD;
+  --note-list-view-item-active-date-color: #d0ca28;
+  --note-list-view-item-active-tag-color: #2489e1;
   --note-list-view-item-focus-inner-shadow: inset 0 0 4px rgba(255, 255, 255, 0.4);
   --note-search-bar-background: transparent;
   --note-search-bar-border-bottom: 1px solid #2E3235;
@@ -1531,13 +1531,13 @@ input::selection {
   /*-------------------
         Preferences
   --------------------*/
-  --preferences-sidebar-background: #2E3235;
-  --preferences-sidebar-item-active-background: rgba(192, 109, 54, 0.2);
-  --preferences-view-background: #34393D;
+  --preferences-sidebar-background: #0a0a0a;
+  --preferences-sidebar-item-active-background: #a0760a;
+  --preferences-view-background: #1e1e1e;
   /*-------------------
         Task Icons
   --------------------*/
-  --task-icon-active: darkgray;
+  --task-icon-active: #dadada;
   --task-icon-onhold: orange;
   --task-icon-completed: limegreen;
   --task-icon-dropped: lightcoral;
@@ -1554,7 +1554,8 @@ input::selection {
  ********************************/
 
 .editor .CodeMirror,
-.editor .CodeMirror .CodeMirror-scroll {
+.editor .CodeMirror .CodeMirror-scroll,
+.editor .CodeMirror .CodeMirror-gutters {
   background-color: transparent !important;
 }
 /*!
@@ -15149,13 +15150,13 @@ img.ui.bordered.image {
   line-height: 1;
   vertical-align: baseline;
   margin: 0em 0.14285714em;
-  background-color: #666E74;
+  background-color: #1e72ba;
   background-image: none;
   padding: 0.5833em 0.833em;
   color: rgba(255, 255, 255, 0.95);
   text-transform: none;
   font-weight: 600;
-  border: 0px solid transparent;
+  border: none;
   border-radius: 0.28571429rem;
   transition: background 0.1s ease;
 }
@@ -20451,7 +20452,7 @@ ol.ui.horizontal.list li:before,
   padding: 0.67857143em 1em;
   font-size: 1em;
   background: transparent;
-  border: 1px solid rgba(24, 26, 28, 0.45);
+  border: 1px solid white;
   color: #DDDDDD;
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
@@ -32157,7 +32158,7 @@ body.dimmable > .dimmer {
   padding: 0.78571429em 2.1em 0.78571429em 1em;
   color: #DDDDDD;
   box-shadow: none;
-  border: 1px solid rgba(24, 26, 28, 0.45);
+  border: 1px solid white;
   border-radius: 0.28571429rem;
   transition: box-shadow 0.1s ease, width 0.1s ease;
 }

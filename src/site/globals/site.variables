@@ -15,8 +15,8 @@
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : @pageBackground;
-@sidebarMenuItemActiveBackground: rgba(0, 0, 0, 0.2);
+@sidebarBackground     : rgba(10, 10, 10, 0.7);
+@sidebarMenuItemActiveBackground: rgb(113, 83, 9);
 @sidebarMenuSectionColor: @lightTextColor;
 @sidebarMenuItemColor  : @textColor;
 @sidebarMenuActionColor : @lightTextColor;
@@ -26,31 +26,31 @@
 @sidebarSyncStatusViewTextColor: @textColor;
 @sidebarSyncStatusViewDetailColor: @lightTextColor;
 @sidebarScrollbarWidth: 6px;
-@sidebarScrollbarTrackBackground: rgba(0,0,0,0.02);
-@sidebarScrollbarThumbBackground: rgba(255,255,255,0.1);
+@sidebarScrollbarTrackBackground: rgba(80, 80, 80, 0.2);
+@sidebarScrollbarThumbBackground: rgb(36, 143, 134);
 
 /*-------------------
       Scroll Bar
 --------------------*/
 @scrollbarWidth: 6px;
-@scrollbarTrackBackground: rgba(0,0,0,0.02);
-@scrollbarThumbBackground: rgba(255,255,255,0.1);
+@scrollbarTrackBackground: rgba(80, 80, 80, 0.2);
+@scrollbarThumbBackground: rgb(4, 84, 154);
 
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: rgba(0, 0, 0, 0.4);
+@noteListBarBackground: rgba(30, 30, 30, 0.7);
 @noteListBarPinnedSectionHeaderBackground: rgba(255, 255, 255, 0.05);
 @noteListBarPinnedSectionHeaderBorderBottom: 1px solid rgba(255, 255, 255, 0.1);
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
 @noteListViewItemColor: @mutedTextColor;
 @noteListViewItemSeparatorBorder: 1px solid @white;
-@noteListViewItemDateColor: @primaryColor;
-@noteListViewItemTagColor: @primaryColor;
-@noteListViewItemActiveBackground: #6987AF80;
+@noteListViewItemDateColor: rgb(145, 128, 35);
+@noteListViewItemTagColor: rgb(30, 114, 186);
+@noteListViewItemActiveBackground: rgb(160, 118, 10);
 @noteListViewItemActiveColor: @textColor;
-@noteListViewItemActiveDateColor: @textColor;
-@noteListViewItemActiveTagColor: @textColor;
+@noteListViewItemActiveDateColor: rgb(208, 202, 40);
+@noteListViewItemActiveTagColor: rgb(36, 137, 225);
 @noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(255,255,255,0.4);
 @noteSearchBarBackground: transparent;
 @noteSearchBarBorderBottom: 1px solid @white;
@@ -71,14 +71,14 @@
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: @white;
-@preferencesSidebarItemActiveBackground: rgba(192, 109, 54, 0.2);
-@preferencesViewBackground: @offWhite;
+@preferencesSidebarBackground: rgb(10, 10, 10);
+@preferencesSidebarItemActiveBackground: rgb(160, 118, 10);
+@preferencesViewBackground: rgb(30, 30, 30);
 
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: darkgray;
+@taskIconActive: rgb(218, 218, 218);
 @taskIconOnHold: orange;
 @taskIconCompleted: limegreen;
 @taskIconDropped: lightcoral;
