@@ -867,7 +867,7 @@ input::selection {
   --light-black: #545454;
   /*---   Neutrals  ---*/
   --full-black: #FFFFFF;
-  --off-white: #34393D;
+  --off-white: rgba(10, 10, 10, 0.9);
   --dark-white: #4B5257;
   --mid-white: #666E74;
   --white: #2E3235;
@@ -1479,7 +1479,7 @@ input::selection {
   /*-------------------
         Side Bar
   --------------------*/
-  --sidebar-background: rgba(10, 10, 10, 0.7);
+  --sidebar-background: rgba(10, 10, 10, 0.9);
   --sidebar-menu-item-active-background: #715309;
   --sidebar-menu-section-color: rgba(255, 255, 255, 0.5);
   --sidebar-menu-item-color: #DDDDDD;
@@ -1491,7 +1491,7 @@ input::selection {
   --sidebar-sync-status-view-detail-color: rgba(255, 255, 255, 0.5);
   --sidebar-scrollbar-width: 6px;
   --sidebar-scrollbar-track-background: rgba(80, 80, 80, 0.2);
-  --sidebar-scrollbar-thumb-background: #248f86;
+  --sidebar-scrollbar-thumb-background: #04549a;
   /*-------------------
         Scroll Bar
   --------------------*/
@@ -15150,13 +15150,13 @@ img.ui.bordered.image {
   line-height: 1;
   vertical-align: baseline;
   margin: 0em 0.14285714em;
-  background-color: rgb(36, 137, 225);
+  background-color: #0aa579;
   background-image: none;
   padding: 0.5833em 0.833em;
-  color: rgba(255, 255, 255, 0.95);
+  color: #dcdcdc;
   text-transform: none;
   font-weight: 600;
-  border: none;
+  border: #dcdcdc;
   border-radius: 0.28571429rem;
   transition: background 0.1s ease;
 }
@@ -16344,6 +16344,7 @@ a.ui.basic.label:hover {
   width: 0.5em;
   height: 0.5em;
   vertical-align: baseline;
+  background-color: #04549a !important;
 }
 
 /*-------------------
@@ -32569,6 +32570,7 @@ select.ui.dropdown {
   cursor: auto;
   margin-top: 0.21428571em;
   border-radius: 0.28571429rem;
+  background-color: rgba(46, 50, 53, 0.9) !important;
 }
 
 /*******************************
@@ -32582,7 +32584,7 @@ select.ui.dropdown {
 /* Menu Item Active */
 
 .ui.dropdown .menu .active.item {
-  background: transparent;
+  background: rgba(46, 50, 53, 0.9);
   font-weight: 600;
   color: rgba(255, 255, 255, 0.95);
   box-shadow: none;

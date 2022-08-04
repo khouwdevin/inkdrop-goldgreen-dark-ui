@@ -15,7 +15,7 @@
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : rgba(10, 10, 10, 0.7);
+@sidebarBackground     : rgba(10, 10, 10, 0.9);
 @sidebarMenuItemActiveBackground: rgb(113, 83, 9);
 @sidebarMenuSectionColor: @lightTextColor;
 @sidebarMenuItemColor  : @textColor;
@@ -27,7 +27,7 @@
 @sidebarSyncStatusViewDetailColor: @lightTextColor;
 @sidebarScrollbarWidth: 6px;
 @sidebarScrollbarTrackBackground: rgba(80, 80, 80, 0.2);
-@sidebarScrollbarThumbBackground: rgb(36, 143, 134);
+@sidebarScrollbarThumbBackground: rgb(4, 84, 154);
 
 /*-------------------
       Scroll Bar

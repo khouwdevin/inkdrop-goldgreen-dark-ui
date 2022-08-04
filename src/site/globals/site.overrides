@@ -227,7 +227,7 @@
 
   /*---   Neutrals  ---*/
   --full-black: @fullBlack;
-  --off-white: @offWhite;
+  --off-white: rgba(10, 10, 10, 0.9);
   --dark-white: @darkWhite;
   --mid-white: @midWhite;
   --white: @white;
