@@ -3,32 +3,20 @@
 ## Install
 
 ```
-ipm install vibrant-dark-ui
+ipm install goldgreen-dark-ui 
 ```
 
 Go to Preferences → Themes → Enable the experimental feature "Acrylic translucent background".
 
 ![Preferences](https://github.com/inkdropapp/vibrant-dark-ui/blob/master/img/windows-preferences.png?raw=true)
 
-### macOS
+### Gold and Green combine together
 
-![Screenshot on macOS](https://github.com/inkdropapp/vibrant-dark-ui/blob/master/img/screenshot-macos.png?raw=true)
+![Screenshot1](https://github.com/khouwdevin/inkdrop-goldgreen-dark-ui/blob/master/img/img1.png?raw=true)
 
-### Windows
+### Match perfectly with stylized and fantasy syntax theme
 
-![Screenshot on Windows](https://github.com/inkdropapp/vibrant-dark-ui/blob/master/img/screenshot-windows.png?raw=true)
+![Screenshot on Windows](https://github.com/khouwdevin/inkdrop-goldgreen-dark-ui/blob/master/img/img2.png?raw=true)
 
-### Linux
-
-Not supported.
-
-## How to build
-
-```
-npm install
-npm build
-```
-
-## Changelog
-
-See [the GitHub releases](https://github.com/inkdropapp/vibrant-dark-ui/releases) for an overview of what changed in each update.
+Here for the syntax ui [stylized-dark-ui](https://github.com/khouwdevin/inkdrop-stylized-fantasy-syntax-theme) [stylized-dark-ui inkdrop](https://my.inkdrop.app/plugins/goldgreen-dark-ui)
+Forked from [vibrant-dark-ui](https://github.com/inkdropapp/vibrant-dark-ui)
