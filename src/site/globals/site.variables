@@ -10,6 +10,7 @@
 @primaryColor: #6987AF;
 @primaryColorFocus: #6987AF;
 @linkHoverColor: @primaryColor;
+@primaryColorHover: rgb(30, 118, 196);
 
 
 /*-------------------

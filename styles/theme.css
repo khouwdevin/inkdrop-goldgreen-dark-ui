@@ -1280,7 +1280,7 @@ input::selection {
   --floating-shadow-hover: 0px 2px 4px 0px rgba(34, 36, 38, 0.15),
     0px 2px 10px 0px rgba(34, 36, 38, 0.25);
   /*---  Colors  ---*/
-  --primary-color-hover: #5579aa;
+  --primary-color-hover: #1e76c4;
   --secondary-color-hover: #ffffff;
   --red-hover: #d01919;
   --orange-hover: #b2602a;
@@ -1579,7 +1579,7 @@ input::selection {
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #25282a none;
+  background: #1f9187;
   color: #DDDDDD;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   margin: 0em 0.25em 0em 0em;
@@ -1608,10 +1608,10 @@ input::selection {
 ---------------*/
 
 .ui.button:hover {
-  background-color: #292d30;
+  background-color: #b17d1d;
+  color: #e6e6e6;
   background-image: none;
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(24, 26, 28, 0.45) inset;
-  color: rgba(255, 255, 255, 0.8);
 }
 
 .ui.button:hover .icon {
@@ -1623,8 +1623,8 @@ input::selection {
 ---------------*/
 
 .ui.button:focus {
-  background-color: #292d30;
-  color: rgba(255, 255, 255, 0.8);
+  background-color: #b17d1d;
+  color: #e6e6e6;
   background-image: '' !important;
   box-shadow: '' !important;
 }
@@ -1749,6 +1749,7 @@ input::selection {
   background-image: none !important;
   box-shadow: none !important;
   pointer-events: none !important;
+  background-color: #6f6f6f !important;
 }
 
 /* Basic Group With Disabled */
@@ -5013,8 +5014,8 @@ input::selection {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #6987AF;
-  color: #2E3235;
+  background-color: #1f9187;
+  color: #e6e6e6;
   text-shadow: none;
   background-image: none;
 }
@@ -5025,22 +5026,22 @@ input::selection {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #5579aa;
-  color: #2E3235;
+  background-color: #b17d1d;
+  color: #e6e6e6;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #6987AF;
-  color: #2E3235;
+  background-color: #b17d1d;
+  color: #e6e6e6;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #506e95;
-  color: #2E3235;
+  background-color: #b17d1d;
+  color: #e6e6e6;
   text-shadow: none;
 }
 
@@ -5064,15 +5065,15 @@ input::selection {
 .ui.basic.primary.buttons .button:hover,
 .ui.basic.primary.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #5579aa inset !important;
-  color: #5579aa !important;
+  box-shadow: 0px 0px 0px 1px #1e76c4 inset !important;
+  color: #1e76c4 !important;
 }
 
 .ui.basic.primary.buttons .button:focus,
 .ui.basic.primary.button:focus {
   background: transparent !important;
   box-shadow: 0px 0px 0px 1px #6987AF inset !important;
-  color: #5579aa !important;
+  color: #1e76c4 !important;
 }
 
 .ui.basic.primary.buttons .active.button,
@@ -18687,7 +18688,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.segment {
   position: relative;
-  background: #1e1e1e;
+  background: #282828;
   box-shadow: 0px 1px 2px 0 rgba(24, 26, 28, 0.45);
   margin: 1rem 0em;
   padding: 1em 1em;
@@ -31448,7 +31449,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox .box:after,
 .ui.toggle.checkbox label:after {
-  background: #2E3235 linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+  background: #e6e6e6;
   position: absolute;
   content: '' !important;
   opacity: 1;
@@ -31494,7 +31495,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: #6987AF !important;
+  background-color: #1f9187 !important;
 }
 
 .ui.toggle.checkbox input:checked ~ .box:after,
@@ -31512,7 +31513,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: #6987AF !important;
+  background-color: #1f9187 !important;
 }
 
 /*******************************
