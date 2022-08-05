@@ -85,13 +85,13 @@
 .ui.modal > .header {
   display: block;
   font-family: @headerFontFamily;
-  background: @headerBackground;
+  background: rgb(20, 20, 20);
   margin: @headerMargin;
   padding: @headerPadding;
   box-shadow: @headerBoxShadow;
 
   color: @headerColor;
-  border-bottom: @headerBorder;
+  border-bottom: 1px solid rgb(222, 158, 38);
 }
 .ui.modal > .header:not(.ui) {
   font-size: @headerFontSize;
@@ -109,7 +109,7 @@
   font-size: @contentFontSize;
   line-height: @contentLineHeight;
   padding: @contentPadding;
-  background: @contentBackground;
+  background: rgb(25, 25, 25);
 }
 .ui.modal > .image.content {
   display: flex;
@@ -163,9 +163,9 @@
 ---------------*/
 
 .ui.modal > .actions {
-  background: @actionBackground;
+  background: rgb(20, 20, 20);
   padding: @actionPadding;
-  border-top: @actionBorder;
+  border-top: 1px solid rgb(222, 158, 38);
   text-align: @actionAlign;
 }
 .ui.modal .actions > .button {
