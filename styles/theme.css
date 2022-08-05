@@ -4363,7 +4363,7 @@ input::selection {
 .ui.red.buttons .button,
 .ui.red.button {
   background-color: #DB2828;
-  color: #2E3235;
+  color: #e6e6e6 !important;
   text-shadow: none;
   background-image: none;
 }
@@ -4375,21 +4375,21 @@ input::selection {
 .ui.red.buttons .button:hover,
 .ui.red.button:hover {
   background-color: #d01919;
-  color: #2E3235;
+  color: #e6e6e6 !important;
   text-shadow: none;
 }
 
 .ui.red.buttons .button:focus,
 .ui.red.button:focus {
   background-color: #ca1010;
-  color: #2E3235;
+  color: #e6e6e6 !important;
   text-shadow: none;
 }
 
 .ui.red.buttons .button:active,
 .ui.red.button:active {
   background-color: #b21e1e;
-  color: #2E3235;
+  color: #e6e6e6 !important;
   text-shadow: none;
 }
 
@@ -4398,7 +4398,7 @@ input::selection {
 .ui.red.active.button,
 .ui.red.button .active.button:active {
   background-color: #d41515;
-  color: #2E3235;
+  color: #e6e6e6 !important;
   text-shadow: none;
 }
 
