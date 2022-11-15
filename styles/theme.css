@@ -1479,7 +1479,7 @@ input::selection {
   /*-------------------
         Side Bar
   --------------------*/
-  --sidebar-background: rgba(10, 10, 10, 0.9);
+  --sidebar-background: transparent;
   --sidebar-menu-item-active-background: #715309;
   --sidebar-menu-section-color: rgba(255, 255, 255, 0.5);
   --sidebar-menu-item-color: #DDDDDD;
@@ -1501,7 +1501,7 @@ input::selection {
   /*-------------------
         Note List Bar
   --------------------*/
-  --note-list-bar-background: rgba(30, 30, 30, 0.7);
+  --note-list-bar-background: transparent;
   --note-list-bar-pinned-section-header-background: rgba(255, 255, 255, 0.05);
   --note-list-bar-pinned-section-header-border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   --note-list-bar-pinned-section-footer-border-bottom: 4px solid rgba(255, 255, 255, 0.2);
