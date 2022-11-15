@@ -40,7 +40,7 @@
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: transparent;
+@noteListBarBackground: rgba(20, 20, 20, 0.3);
 @noteListBarPinnedSectionHeaderBackground: rgba(255, 255, 255, 0.05);
 @noteListBarPinnedSectionHeaderBorderBottom: 1px solid rgba(255, 255, 255, 0.1);
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
