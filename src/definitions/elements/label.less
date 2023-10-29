@@ -29,15 +29,15 @@
 
   margin: @verticalMargin @horizontalMargin;
 
-  background-color: rgb(10, 165, 121);
+  background-color: rgb(30, 114, 186);
   background-image: @backgroundImage;
   padding: @verticalPadding @horizontalPadding;
-  color: rgb(220, 220, 220);
+  color: @color;
 
   text-transform: @textTransform;
   font-weight: @fontWeight;
 
-  border: rgb(220, 220, 220);
+  border: none;
   border-radius: @borderRadius;
   transition: @transition;
 }
@@ -638,7 +638,7 @@ a.ui.yellow.label:hover{
 }
 /* Basic */
 .ui.basic.yellow.label {
-  background: black !important;
+  background: @basicBackground !important;
   color: @yellow !important;
   border-color: @yellow !important;
 }
@@ -962,9 +962,9 @@ a.ui.grey.label:hover{
 }
 /* Basic */
 .ui.basic.grey.label {
-  background: black !important;
-  color: white !important;
-  border-color: rgb(255, 255, 255) !important;
+  background: @basicBackground !important;
+  color: @grey !important;
+  border-color: @grey !important;
 }
 .ui.basic.grey.labels a.label:hover,
 a.ui.basic.grey.label:hover {
@@ -1092,7 +1092,6 @@ a.ui.basic.label:hover {
   width: @emptyCircleSize;
   height: @emptyCircleSize;
   vertical-align: baseline;
-  background-color: rgb(4, 84, 154) !important;
 }
 
 /*-------------------

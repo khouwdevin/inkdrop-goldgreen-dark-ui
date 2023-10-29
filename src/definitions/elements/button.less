@@ -30,7 +30,7 @@
   outline: none;
   border: none;
   vertical-align: @verticalAlign;
-  background: #1f9187;
+  background: @background;
   color: @textColor;
 
   font-family: @fontFamily;
@@ -66,10 +66,10 @@
 ---------------*/
 
 .ui.button:hover {
-  background-color:rgb(177 125 29);
-  color: rgb(230, 230, 230);
+  background-color: @hoverBackgroundColor;
   background-image: @hoverBackgroundImage;
   box-shadow: @hoverBoxShadow;
+  color: @hoverColor;
 }
 
 .ui.button:hover .icon {
@@ -81,8 +81,8 @@
 ---------------*/
 
 .ui.button:focus {
-  background-color:rgb(177 125 29);
-  color: rgb(230, 230, 230);
+  background-color: @focusBackgroundColor;
+  color: @focusColor;
   background-image: @focusBackgroundImage !important;
   box-shadow: @focusBoxShadow !important;
 }
@@ -207,7 +207,6 @@
   background-image: none !important;
   box-shadow: none !important;
   pointer-events: none !important;
-  background-color: rgb(111, 111, 111) !important;
 }
 
 /* Basic Group With Disabled */
@@ -2495,7 +2494,7 @@
 .ui.red.buttons .button,
 .ui.red.button {
   background-color: @red;
-  color: rgb(230, 230, 230) !important;
+  color: @redTextColor;
   text-shadow: @redTextShadow;
   background-image: @coloredBackgroundImage;
 }
@@ -2505,19 +2504,19 @@
 .ui.red.buttons .button:hover,
 .ui.red.button:hover {
   background-color: @redHover;
-  color: rgb(230, 230, 230) !important;
+  color: @redTextColor;
   text-shadow: @redTextShadow;
 }
 .ui.red.buttons .button:focus,
 .ui.red.button:focus {
   background-color: @redFocus;
-  color: rgb(230, 230, 230) !important;
+  color: @redTextColor;
   text-shadow: @redTextShadow;
 }
 .ui.red.buttons .button:active,
 .ui.red.button:active {
   background-color: @redDown;
-  color: rgb(230, 230, 230) !important;
+  color: @redTextColor;
   text-shadow: @redTextShadow;
 }
 .ui.red.buttons .active.button,
@@ -2525,7 +2524,7 @@
 .ui.red.active.button,
 .ui.red.button .active.button:active {
   background-color: @redActive;
-  color: rgb(230, 230, 230) !important;
+  color: @redTextColor;
   text-shadow: @redTextShadow;
 }
 
@@ -3057,8 +3056,8 @@
 /*--- Standard ---*/
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: rgb(31 145 135);
-  color: rgb(230, 230, 230);
+  background-color: @primaryColor;
+  color: @primaryTextColor;
   text-shadow: @primaryTextShadow;
   background-image: @coloredBackgroundImage;
 }
@@ -3067,20 +3066,20 @@
 }
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: rgb(177 125 29);
-  color: rgb(230, 230, 230);
+  background-color: @primaryColorHover;
+  color: @primaryTextColor;
   text-shadow: @primaryTextShadow;
 }
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color:rgb(177 125 29);
-  color: rgb(230, 230, 230);
+  background-color: @primaryColorFocus;
+  color: @primaryTextColor;
   text-shadow: @primaryTextShadow;
 }
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color:rgb(177 125 29);
-  color: rgb(230, 230, 230);
+  background-color: @primaryColorDown;
+  color: @primaryTextColor;
   text-shadow: @primaryTextShadow;
 }
 .ui.primary.buttons .active.button,

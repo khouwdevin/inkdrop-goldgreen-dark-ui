@@ -3,7 +3,7 @@
  * https://github.com/fomantic/Fomantic-UI
  * http://fomantic-ui.com/
  *
- * Copyright 2022 Contributors
+ * Copyright 2023 Contributors
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
@@ -796,9 +796,9 @@ input::selection {
   /*-------------------
          Links
    --------------------*/
-  --link-color: #6987AF;
+  --link-color: #de9e26;
   --link-underline: none;
-  --link-hover-color: #6987AF;
+  --link-hover-color: #ffb62e;
   --link-hover-underline: none;
   /*-------------------
     Highlighted Text
@@ -1609,9 +1609,9 @@ input::selection {
 
 .ui.button:hover {
   background-color: #b17d1d;
-  color: #e6e6e6;
   background-image: none;
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(24, 26, 28, 0.45) inset;
+  color: #e6e6e6;
 }
 
 .ui.button:hover .icon {
@@ -1749,7 +1749,6 @@ input::selection {
   background-image: none !important;
   box-shadow: none !important;
   pointer-events: none !important;
-  background-color: #6f6f6f !important;
 }
 
 /* Basic Group With Disabled */
@@ -1922,7 +1921,7 @@ input::selection {
 .ui.inverted.button:hover {
   background: #2E3235;
   box-shadow: 0px 0px 0px 2px #2E3235 inset !important;
-  color: rgba(255, 255, 255, 0.8);
+  color: #e6e6e6;
 }
 
 /* Active / Focus */
@@ -1931,7 +1930,7 @@ input::selection {
 .ui.inverted.button.active {
   background: #2E3235;
   box-shadow: 0px 0px 0px 2px #2E3235 inset !important;
-  color: rgba(255, 255, 255, 0.8);
+  color: #e6e6e6;
 }
 
 /* Active Focus */
@@ -1939,7 +1938,7 @@ input::selection {
 .ui.inverted.button.active:focus {
   background: #666E74;
   box-shadow: 0px 0px 0px 2px #666E74 inset !important;
-  color: rgba(255, 255, 255, 0.8);
+  color: #e6e6e6;
 }
 
 /*-------------------
@@ -5049,8 +5048,8 @@ input::selection {
 .ui.primary.buttons .active.button:active,
 .ui.primary.active.button,
 .ui.primary.button .active.button:active {
-  background-color: #5379ac;
-  color: #2E3235;
+  background-color: #138379;
+  color: #e6e6e6;
   text-shadow: none;
 }
 
@@ -5058,35 +5057,35 @@ input::selection {
 
 .ui.basic.primary.buttons .button,
 .ui.basic.primary.button {
-  box-shadow: 0px 0px 0px 1px #6987AF inset !important;
-  color: #6987AF !important;
+  box-shadow: 0px 0px 0px 1px #1f9187 inset !important;
+  color: #1f9187 !important;
 }
 
 .ui.basic.primary.buttons .button:hover,
 .ui.basic.primary.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #1e76c4 inset !important;
-  color: #1e76c4 !important;
+  box-shadow: 0px 0px 0px 1px #b17d1d inset !important;
+  color: #b17d1d !important;
 }
 
 .ui.basic.primary.buttons .button:focus,
 .ui.basic.primary.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #6987AF inset !important;
-  color: #1e76c4 !important;
+  box-shadow: 0px 0px 0px 1px #b17d1d inset !important;
+  color: #b17d1d !important;
 }
 
 .ui.basic.primary.buttons .active.button,
 .ui.basic.primary.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #5379ac inset !important;
-  color: #506e95 !important;
+  box-shadow: 0px 0px 0px 1px #138379 inset !important;
+  color: #b17d1d !important;
 }
 
 .ui.basic.primary.buttons .button:active,
 .ui.basic.primary.button:active {
-  box-shadow: 0px 0px 0px 1px #506e95 inset !important;
-  color: #506e95 !important;
+  box-shadow: 0px 0px 0px 1px #b17d1d inset !important;
+  color: #b17d1d !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -5624,6 +5623,19 @@ input::selection {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.buttons .disabled.button,
+.ui.disabled.button,
+.ui.button:disabled,
+.ui.disabled.button:hover,
+.ui.disabled.active.button {
+  cursor: default;
+  opacity: 0.45 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  pointer-events: none !important;
+  background-color: #6f6f6f;
+}
 /*!
  * # Semantic UI - Container
  * http://github.com/semantic-org/semantic-ui/
@@ -15151,13 +15163,13 @@ img.ui.bordered.image {
   line-height: 1;
   vertical-align: baseline;
   margin: 0em 0.14285714em;
-  background-color: #0aa579;
+  background-color: #1e72ba;
   background-image: none;
   padding: 0.5833em 0.833em;
   color: #dcdcdc;
   text-transform: none;
   font-weight: 600;
-  border: #dcdcdc;
+  border: none;
   border-radius: 0.28571429rem;
   transition: background 0.1s ease;
 }
@@ -15293,7 +15305,7 @@ a.ui.label {
   max-width: 9999px;
   vertical-align: baseline;
   text-transform: none;
-  background: #666E74;
+  background: #1e72ba;
   padding: 0.5833em 0.833em 0.5833em 0.5em;
   border-radius: 0.28571429rem;
   box-shadow: none;
@@ -15367,7 +15379,7 @@ a.ui.label {
   margin: 0em;
   padding: 0em;
   text-align: center;
-  border-color: #666E74;
+  border-color: #1e72ba;
   width: 4em;
   height: 4em;
   z-index: 1;
@@ -15701,7 +15713,7 @@ a.ui.red.label:hover {
 /* Basic */
 
 .ui.basic.red.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #DB2828 !important;
   border-color: #DB2828 !important;
 }
@@ -15747,7 +15759,7 @@ a.ui.orange.label:hover {
 /* Basic */
 
 .ui.basic.orange.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #C06D36 !important;
   border-color: #C06D36 !important;
 }
@@ -15839,7 +15851,7 @@ a.ui.olive.label:hover {
 /* Basic */
 
 .ui.basic.olive.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #B5CC18 !important;
   border-color: #B5CC18 !important;
 }
@@ -15885,7 +15897,7 @@ a.ui.green.label:hover {
 /* Basic */
 
 .ui.basic.green.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #21BA45 !important;
   border-color: #21BA45 !important;
 }
@@ -15931,7 +15943,7 @@ a.ui.teal.label:hover {
 /* Basic */
 
 .ui.basic.teal.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #00B5AD !important;
   border-color: #00B5AD !important;
 }
@@ -15977,7 +15989,7 @@ a.ui.blue.label:hover {
 /* Basic */
 
 .ui.basic.blue.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #2185D0 !important;
   border-color: #2185D0 !important;
 }
@@ -16023,7 +16035,7 @@ a.ui.violet.label:hover {
 /* Basic */
 
 .ui.basic.violet.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #6435C9 !important;
   border-color: #6435C9 !important;
 }
@@ -16069,7 +16081,7 @@ a.ui.purple.label:hover {
 /* Basic */
 
 .ui.basic.purple.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #A333C8 !important;
   border-color: #A333C8 !important;
 }
@@ -16115,7 +16127,7 @@ a.ui.pink.label:hover {
 /* Basic */
 
 .ui.basic.pink.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #E03997 !important;
   border-color: #E03997 !important;
 }
@@ -16161,7 +16173,7 @@ a.ui.brown.label:hover {
 /* Basic */
 
 .ui.basic.brown.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #A5673F !important;
   border-color: #A5673F !important;
 }
@@ -16177,8 +16189,8 @@ a.ui.basic.brown.label:hover {
 
 .ui.grey.labels .label,
 .ui.grey.label {
-  background-color: #767676 !important;
-  border-color: #767676 !important;
+  background-color: white !important;
+  border-color: white !important;
   color: #F9FAFB !important;
 }
 
@@ -16186,8 +16198,8 @@ a.ui.basic.brown.label:hover {
 
 .ui.grey.labels .label:hover,
 a.ui.grey.label:hover {
-  background-color: #838383 !important;
-  border-color: #838383 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
   color: #F9FAFB !important;
 }
 
@@ -16209,14 +16221,14 @@ a.ui.grey.label:hover {
 .ui.basic.grey.label {
   background: black !important;
   color: white !important;
-  border-color: #ffffff !important;
+  border-color: white !important;
 }
 
 .ui.basic.grey.labels a.label:hover,
 a.ui.basic.grey.label:hover {
   background-color: #2E3235 !important;
-  color: #838383 !important;
-  border-color: #838383 !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 
 /*--- Black ---*/
@@ -16253,7 +16265,7 @@ a.ui.black.label:hover {
 /* Basic */
 
 .ui.basic.black.label {
-  background: none #2E3235 !important;
+  background: black !important;
   color: #F9FAFB !important;
   border-color: #F9FAFB !important;
 }
@@ -16270,7 +16282,7 @@ a.ui.basic.black.label:hover {
 --------------------*/
 
 .ui.basic.label {
-  background: none #2E3235;
+  background: black;
   border: 1px solid rgba(24, 26, 28, 0.45);
   color: #DDDDDD;
   box-shadow: none;
@@ -16280,8 +16292,8 @@ a.ui.basic.black.label:hover {
 
 a.ui.basic.label:hover {
   text-decoration: none;
-  background: none #2E3235;
-  color: #6987AF;
+  background: black;
+  color: #ffb62e;
   box-shadow: 1px solid rgba(24, 26, 28, 0.45);
   box-shadow: none;
 }
@@ -16345,7 +16357,6 @@ a.ui.basic.label:hover {
   width: 0.5em;
   height: 0.5em;
   vertical-align: baseline;
-  background-color: #04549a !important;
 }
 
 /*-------------------
@@ -16541,6 +16552,33 @@ a.ui.basic.label:hover {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.label {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: baseline;
+  margin: 0em 0.14285714em;
+  background-color: #1e72ba;
+  background-image: none;
+  padding: 0.5833em 0.833em;
+  color: #dcdcdc;
+  text-transform: none;
+  font-weight: 600;
+  border: #dcdcdc;
+  border-radius: 0.28571429rem;
+  transition: background 0.1s ease;
+}
+
+.ui.empty.circular.labels .label,
+.ui.empty.circular.label {
+  min-width: 0em;
+  min-height: 0em;
+  overflow: hidden;
+  width: 0.5em;
+  height: 0.5em;
+  vertical-align: baseline;
+  background-color: #04549a !important;
+}
 /*!
  * # Semantic UI - List
  * http://github.com/semantic-org/semantic-ui/
@@ -16744,12 +16782,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #6987AF;
+  color: #de9e26;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /* Linked Item Icons */
@@ -16764,12 +16802,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #6987AF !important;
+  color: #de9e26 !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #6987AF !important;
+  color: #ffb62e !important;
 }
 
 /* Floated Content */
@@ -16945,7 +16983,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /* Linking Content */
@@ -16955,7 +16993,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #6987AF !important;
+  color: #ffb62e !important;
 }
 
 /*-------------------
@@ -18688,7 +18726,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.segment {
   position: relative;
-  background: #282828;
+  background: rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 2px 0 rgba(24, 26, 28, 0.45);
   margin: 1rem 0em;
   padding: 1em 1em;
@@ -19927,7 +19965,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #6987AF;
+  color: #de9e26;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -20258,11 +20296,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #6987AF;
+  color: #de9e26;
 }
 
 .ui.breadcrumb a:hover {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /* Icon Divider */
@@ -20469,7 +20507,7 @@ ol.ui.horizontal.list li:before,
   tap-highlight-color: rgba(255, 255, 255, 0);
   padding: 0.78571429em 1em;
   background: transparent;
-  border: 1px solid rgba(24, 26, 28, 0.45);
+  border: 1px solid white;
   outline: none;
   color: #DDDDDD;
   border-radius: 0.28571429rem;
@@ -20508,7 +20546,7 @@ ol.ui.horizontal.list li:before,
   height: auto;
   width: 100%;
   background: #2E3235;
-  border: 1px solid rgba(24, 26, 28, 0.45);
+  border: 1px solid white;
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 1em;
@@ -28267,7 +28305,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /* Meta */
@@ -28381,7 +28419,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /*******************************
@@ -29122,7 +29160,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /*--------------
@@ -29829,7 +29867,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /* Meta */
@@ -30050,7 +30088,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #6987AF;
+  color: #ffb62e;
 }
 
 /*--------------
@@ -31334,7 +31372,7 @@ a.ui.card:hover,
 
 .ui.slider.checkbox .box:after,
 .ui.slider.checkbox label:after {
-  background: #2E3235 linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+  background: #e6e6e6;
   position: absolute;
   content: '' !important;
   opacity: 1;
@@ -32571,7 +32609,6 @@ select.ui.dropdown {
   cursor: auto;
   margin-top: 0.21428571em;
   border-radius: 0.28571429rem;
-  background-color: rgba(46, 50, 53, 0.9) !important;
 }
 
 /*******************************
@@ -33387,6 +33424,13 @@ select.ui.dropdown {
 /*******************************
         User Overrides
 *******************************/
+
+.ui.inline.dropdown .menu {
+  cursor: auto;
+  margin-top: 0.21428571em;
+  border-radius: 0.28571429rem;
+  background-color: rgba(46, 50, 53, 0.9) !important;
+}
 /*!
  * # Semantic UI - Video
  * http://github.com/semantic-org/semantic-ui/
@@ -33705,7 +33749,7 @@ select.ui.dropdown {
 ---------------*/
 
 .ui.modal > .actions {
-  background: #141414;
+  background: #191919;
   padding: 1rem 1rem;
   border-top: 1px solid #de9e26;
   text-align: right;

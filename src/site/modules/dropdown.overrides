@@ -1,3 +1,10 @@
 /*******************************
         User Overrides
 *******************************/
+
+.ui.inline.dropdown .menu {
+  cursor: auto;
+  margin-top: @inlineMenuDistance;
+  border-radius: @inlineMenuBorderRadius;
+  background-color: rgba(46, 50, 53, 0.9) !important;
+}

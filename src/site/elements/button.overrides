@@ -1,3 +1,16 @@
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.buttons .disabled.button,
+.ui.disabled.button,
+.ui.button:disabled,
+.ui.disabled.button:hover,
+.ui.disabled.active.button {
+  cursor: default;
+  opacity: @disabledOpacity !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  pointer-events: none !important;
+  background-color: rgb(111, 111, 111);
+}

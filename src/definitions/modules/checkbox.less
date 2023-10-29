@@ -509,7 +509,7 @@
 /* Handle */
 .ui.toggle.checkbox .box:after,
 .ui.toggle.checkbox label:after {
-  background: rgb(230, 230, 230);
+  background: @handleBackground;
   position: absolute;
   content: '' !important;
   opacity: 1;
@@ -553,7 +553,7 @@
 }
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: rgb(31 145 135) !important;
+  background-color: @toggleOnLaneColor !important;
 }
 .ui.toggle.checkbox input:checked ~ .box:after,
 .ui.toggle.checkbox input:checked ~ label:after {
@@ -569,7 +569,7 @@
 }
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: rgb(31 145 135) !important;
+  background-color: @toggleOnFocusLaneColor !important;
 }
 
 /*******************************

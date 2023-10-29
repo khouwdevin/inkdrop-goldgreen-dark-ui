@@ -90,3 +90,9 @@
 @taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
 @taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
 @taskProgressViewCompletedColor: rgb(50, 205, 50);
+
+/*-------------------
+      Link
+--------------------*/
+@linkColor: rgb(222, 158, 38);
+@linkHoverColor: #ffb62e;
