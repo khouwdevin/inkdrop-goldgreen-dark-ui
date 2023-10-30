@@ -2,7 +2,7 @@
     User Variable Overrides
 *******************************/
 
-@background: #1f9187;
+@background: #1b9f93;
 @hoverBackgroundColor: rgb(177, 125, 29);
 @hoverColor: rgb(230, 230, 230);
 @focusBackgroundColor: rgb(177, 125, 29);
@@ -10,7 +10,7 @@
 
 @redTextColor: rgb(230, 230, 230) !important;
 
-@primaryColor: rgb(31, 145, 135);
+@primaryColor: #1b9f93;
 @primaryTextColor: rgb(230, 230, 230);
 @primaryColorHover: rgb(177, 125, 29);
 @primaryColorFocus: rgb(177, 125, 29);

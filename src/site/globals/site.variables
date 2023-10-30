@@ -72,7 +72,7 @@
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: rgb(10, 10, 10);
+@preferencesSidebarBackground: #161616;
 @preferencesSidebarItemActiveBackground: rgb(160, 118, 10);
 @preferencesViewBackground: rgb(30, 30, 30);
 
