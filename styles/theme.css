@@ -1558,6 +1558,11 @@ input::selection {
 .editor .CodeMirror .CodeMirror-gutters {
   background-color: transparent !important;
 }
+
+.cm-fat-cursor .CodeMirror-cursor {
+  border-left: 1px solid #f0f8ff !important;
+  background: #f0f8ff;
+}
 /*!
  * # Semantic UI - Button
  * http://github.com/semantic-org/semantic-ui/

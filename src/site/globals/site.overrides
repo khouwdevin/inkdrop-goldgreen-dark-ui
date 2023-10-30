@@ -1028,3 +1028,9 @@
 .editor .CodeMirror .CodeMirror-gutters {
   background-color: transparent !important;
 }
+
+.cm-fat-cursor 
+.CodeMirror-cursor {
+      border-left: 1px solid rgb(240, 248, 255) !important;
+      background: rgb(240, 248, 255);
+}
