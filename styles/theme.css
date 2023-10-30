@@ -1560,8 +1560,8 @@ input::selection {
 }
 
 .cm-fat-cursor .CodeMirror-cursor {
-  border-left: 1px solid #f0f8ff !important;
-  background: #f0f8ff;
+  border-left: 1px solid #f0f8ffc7 !important;
+  background: #f0f8ffc7 !important;
 }
 /*!
  * # Semantic UI - Button

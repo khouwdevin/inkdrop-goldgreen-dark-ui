@@ -1031,6 +1031,6 @@
 
 .cm-fat-cursor 
 .CodeMirror-cursor {
-      border-left: 1px solid rgb(240, 248, 255) !important;
-      background: rgb(240, 248, 255);
+      border-left: 1px solid #f0f8ffc7 !important;
+      background: #f0f8ffc7 !important;
 }
