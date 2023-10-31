@@ -83,7 +83,7 @@
 --------------------*/
 
 /* Hover */
-@labelHoverBackgroundColor: lighten(#666E74, 10);
+@labelHoverBackgroundColor: #c58c00;
 @labelHoverBackgroundImage: none;
 @labelHoverTextColor: @hoveredTextColor;
 

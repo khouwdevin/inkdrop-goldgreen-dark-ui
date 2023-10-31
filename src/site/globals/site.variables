@@ -7,10 +7,10 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #6987AF;
+@primaryColor: #c58c00;
 @primaryColorFocus: #6987AF;
 @linkHoverColor: @primaryColor;
-@primaryColorHover: rgb(30, 118, 196);
+@primaryColorHover: #ffffff00;
 
 
 /*-------------------

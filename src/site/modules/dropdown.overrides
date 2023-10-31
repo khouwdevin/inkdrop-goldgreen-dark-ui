@@ -8,3 +8,50 @@
   border-radius: @inlineMenuBorderRadius;
   background-color: rgba(46, 50, 53, 0.9) !important;
 }
+
+.ui.dropdown .menu {
+  cursor: auto;
+  position: absolute;
+  display: none;
+  outline: none;
+  top: 100%;
+  min-width: max-content;
+  transition: @menuTransition;
+
+  margin: @menuMargin;
+  padding: @menuPadding;
+  background: @menuBackground;
+  background-color: #121212 !important
+
+  font-size: @relativeMedium;
+  text-shadow: none;
+  text-align: @menuTextAlign;
+
+  box-shadow: @menuBoxShadow;
+  border: @menuBorder;
+  border-radius: @menuBorderRadius;
+  transition: @menuTransition;
+  z-index: @menuZIndex;
+  will-change: transform, opacity;
+}
+
+.ui.selection.dropdown .menu > .item {
+  border-top: none;
+  padding: @selectionItemPadding !important;
+  white-space: normal;
+  word-wrap: normal;
+}
+
+.ui.dropdown.selected,
+.ui.dropdown .menu .selected.item {
+  background: #a0760a;
+  color: @selectedColor;
+}
+
+.ui.dropdown .menu .active.item {
+  background: #a0760a;
+  font-weight: @activeItemFontWeight;
+  color: @activeItemColor;
+  box-shadow: @activeItemBoxShadow;
+  z-index: @activeItemZIndex;
+}

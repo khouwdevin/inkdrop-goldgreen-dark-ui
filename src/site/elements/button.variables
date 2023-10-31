@@ -2,7 +2,7 @@
     User Variable Overrides
 *******************************/
 
-@background: #1b9f93;
+@background: #048f82;
 @hoverBackgroundColor: rgb(177, 125, 29);
 @hoverColor: rgb(230, 230, 230);
 @focusBackgroundColor: rgb(177, 125, 29);
