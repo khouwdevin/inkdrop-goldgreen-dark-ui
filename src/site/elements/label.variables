@@ -2,11 +2,10 @@
     User Variable Overrides
 *******************************/
 
-@backgroundColor: rgb(30, 114, 186);
+@backgroundColor: #008d81;
 @color: rgb(220, 220, 220);
 
 @border: rgb(220, 220, 220);
-
 @basicBackground: black;
 
 @grey: white;

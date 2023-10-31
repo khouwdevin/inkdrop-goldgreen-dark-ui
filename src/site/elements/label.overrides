@@ -9,7 +9,7 @@
 
   margin: @verticalMargin @horizontalMargin;
 
-  background-color: rgb(30, 114, 186);
+  background-color: @backgroundColor;
   background-image: @backgroundImage;
   padding: @verticalPadding @horizontalPadding;
   color: @color;
@@ -30,5 +30,5 @@
   width: @emptyCircleSize;
   height: @emptyCircleSize;
   vertical-align: baseline;
-  background-color: rgb(4, 84, 154) !important;
+  background-color: #1de1d0 !important;
 }
