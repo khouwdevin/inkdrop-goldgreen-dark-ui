@@ -31893,7 +31893,7 @@ body.dimmable > .dimmer {
   min-width: max-content;
   margin: 0em;
   padding: 0em 0em;
-  background: #2E3235;
+  background: #121212;
   font-size: 1em;
   text-shadow: none;
   text-align: left;
@@ -32638,7 +32638,7 @@ select.ui.dropdown {
 /* Menu Item Active */
 
 .ui.dropdown .menu .active.item {
-  background: rgba(46, 50, 53, 0.9);
+  background: #a0760a;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.95);
   box-shadow: none;
@@ -32763,7 +32763,7 @@ select.ui.dropdown {
 
 .ui.dropdown.selected,
 .ui.dropdown .menu .selected.item {
-  background: rgba(255, 255, 255, 0.03);
+  background: #a0760a;
   color: rgba(255, 255, 255, 0.95);
 }
 
@@ -33436,6 +33436,17 @@ select.ui.dropdown {
   .dropdown.right:before { content: "\f0da"; }
   .dropdown.close:before { content: "\f00d"; }
 */
+
+/*******************************
+        User Overrides
+*******************************/
+
+.ui.inline.dropdown .menu {
+  cursor: auto;
+  margin-top: 0.21428571em;
+  border-radius: 0.28571429rem;
+  background-color: rgba(46, 50, 53, 0.9) !important;
+}
 /*!
  * # Semantic UI - Video
  * http://github.com/semantic-org/semantic-ui/

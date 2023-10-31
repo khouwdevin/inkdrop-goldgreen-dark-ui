@@ -3,3 +3,6 @@
 *******************************/
 
 @activeItemBackground: rgba(46, 50, 53, 0.9);
+@menuBackground: #121212;
+@selectedBackground: #a0760a;
+@activeItemBackground: #a0760a;
