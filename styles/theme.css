@@ -945,11 +945,11 @@ input::selection {
       Emotive Colors
    --------------------*/
   /* Positive */
-  --positive-color: #21BA45;
+  --positive-color: #048f82;
   --positive-background-color: #FCFFF5;
   --positive-border-color: #A3C293;
   --positive-header-color: #1A531B;
-  --positive-text-color: #2C662D;
+  --positive-text-color: #DDDDDD;
   /* Negative */
   --negative-color: #DB2828;
   --negative-background-color: #FFF6F6;
@@ -1077,10 +1077,10 @@ input::selection {
   --page-min-width: 320px;
   /* Positive / Negative Dupes */
   --success-background-color: #FCFFF5;
-  --success-color: #21BA45;
+  --success-color: #048f82;
   --success-border-color: #A3C293;
   --success-header-color: #1A531B;
-  --success-text-color: #2C662D;
+  --success-text-color: #DDDDDD;
   --error-background-color: #FFF6F6;
   --error-color: #DB2828;
   --error-border-color: #E0B4B4;
@@ -1307,7 +1307,7 @@ input::selection {
   --light-grey-hover: #cfd0d2;
   --light-black-hover: #f2f2f2;
   /*---  Emotive  ---*/
-  --positive-color-hover: #16ab39;
+  --positive-color-hover: #007a6e;
   --negative-color-hover: #d01919;
   /*---  Brand   ---*/
   --facebook-hover-color: #304d8a;
@@ -1357,7 +1357,7 @@ input::selection {
   --light-grey-focus: #c7c9cb;
   --light-black-focus: #ebebeb;
   /*---  Emotive  ---*/
-  --positive-color-focus: #0ea432;
+  --positive-color-focus: #006a60;
   --negative-color-focus: #ca1010;
   /*---  Brand   ---*/
   --facebook-focus-color: #284582;
@@ -1407,7 +1407,7 @@ input::selection {
   --light-grey-down: #c2c4c5;
   --light-black-down: #e6e6e6;
   /*---  Emotive  ---*/
-  --positive-color-down: #198f35;
+  --positive-color-down: #035d55;
   --negative-color-down: #b21e1e;
   /*---  Brand   ---*/
   --facebook-down-color: #2d4373;
@@ -1457,7 +1457,7 @@ input::selection {
   --light-grey-active: #cfd0d2;
   --light-black-active: #f2f2f2;
   /*---  Emotive  ---*/
-  --positive-color-active: #13ae38;
+  --positive-color-active: #007a6e;
   --negative-color-active: #d41515;
   /*---  Brand   ---*/
   --facebook-active-color: #2e4c8c;
@@ -2548,14 +2548,14 @@ input::selection {
 .ui.toggle.buttons .active.button,
 .ui.buttons .button.toggle.active,
 .ui.button.toggle.active {
-  background-color: #21BA45 !important;
+  background-color: #048f82 !important;
   box-shadow: none !important;
   text-shadow: none;
   color: #2E3235 !important;
 }
 
 .ui.button.toggle.active:hover {
-  background-color: #16ab39 !important;
+  background-color: #007a6e !important;
   text-shadow: none;
   color: #2E3235 !important;
 }
@@ -5350,7 +5350,7 @@ input::selection {
 
 .ui.positive.buttons .button,
 .ui.positive.button {
-  background-color: #21BA45;
+  background-color: #048f82;
   color: #2E3235;
   text-shadow: none;
   background-image: none;
@@ -5362,21 +5362,21 @@ input::selection {
 
 .ui.positive.buttons .button:hover,
 .ui.positive.button:hover {
-  background-color: #16ab39;
+  background-color: #007a6e;
   color: #2E3235;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:focus,
 .ui.positive.button:focus {
-  background-color: #0ea432;
+  background-color: #006a60;
   color: #2E3235;
   text-shadow: none;
 }
 
 .ui.positive.buttons .button:active,
 .ui.positive.button:active {
-  background-color: #198f35;
+  background-color: #035d55;
   color: #2E3235;
   text-shadow: none;
 }
@@ -5385,7 +5385,7 @@ input::selection {
 .ui.positive.buttons .active.button:active,
 .ui.positive.active.button,
 .ui.positive.button .active.button:active {
-  background-color: #13ae38;
+  background-color: #007a6e;
   color: #2E3235;
   text-shadow: none;
 }
@@ -5394,35 +5394,35 @@ input::selection {
 
 .ui.basic.positive.buttons .button,
 .ui.basic.positive.button {
-  box-shadow: 0px 0px 0px 1px #21BA45 inset !important;
-  color: #21BA45 !important;
+  box-shadow: 0px 0px 0px 1px #048f82 inset !important;
+  color: #048f82 !important;
 }
 
 .ui.basic.positive.buttons .button:hover,
 .ui.basic.positive.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #16ab39 inset !important;
-  color: #16ab39 !important;
+  box-shadow: 0px 0px 0px 1px #007a6e inset !important;
+  color: #007a6e !important;
 }
 
 .ui.basic.positive.buttons .button:focus,
 .ui.basic.positive.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #0ea432 inset !important;
-  color: #16ab39 !important;
+  box-shadow: 0px 0px 0px 1px #006a60 inset !important;
+  color: #007a6e !important;
 }
 
 .ui.basic.positive.buttons .active.button,
 .ui.basic.positive.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #13ae38 inset !important;
-  color: #198f35 !important;
+  box-shadow: 0px 0px 0px 1px #007a6e inset !important;
+  color: #035d55 !important;
 }
 
 .ui.basic.positive.buttons .button:active,
 .ui.basic.positive.button:active {
-  box-shadow: 0px 0px 0px 1px #198f35 inset !important;
-  color: #198f35 !important;
+  box-shadow: 0px 0px 0px 1px #035d55 inset !important;
+  color: #035d55 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.primary.button:not(:first-child) {
@@ -20011,7 +20011,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.steps .step.completed > .icon:before,
 .ui.ordered.steps .step.completed:before {
-  color: #21BA45;
+  color: #048f82;
 }
 
 /* Disabled */
@@ -26203,7 +26203,7 @@ Floated Menu / Item
 
 .ui.positive.message {
   background-color: #FCFFF5;
-  color: #2C662D;
+  color: #DDDDDD;
 }
 
 .ui.positive.message,
@@ -26283,7 +26283,7 @@ Floated Menu / Item
 
 .ui.success.message {
   background-color: #FCFFF5;
-  color: #2C662D;
+  color: #DDDDDD;
 }
 
 .ui.success.message,
@@ -26796,7 +26796,7 @@ Floated Menu / Item
 .ui.table tr.positive,
 .ui.table td.positive {
   background: #FCFFF5 !important;
-  color: #2C662D !important;
+  color: #DDDDDD !important;
 }
 
 /*--------------
@@ -27039,7 +27039,7 @@ Floated Menu / Item
 .ui.table tr td.selectable.positive:hover,
 .ui.selectable.table tr:hover td.positive {
   background: #f7ffe6 !important;
-  color: #275b28 !important;
+  color: #d5d5d5 !important;
 }
 
 .ui.selectable.table tr.negative:hover,
@@ -35365,7 +35365,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #21BA45 !important;
+  background-color: #048f82 !important;
 }
 
 .ui.progress.success .bar,
@@ -35484,7 +35484,7 @@ a.ui.nag {
 }
 
 .ui.inverted.progress.success > .label {
-  color: #21BA45;
+  color: #048f82;
 }
 
 .ui.inverted.progress.warning > .label {

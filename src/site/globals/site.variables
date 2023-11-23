@@ -11,6 +11,8 @@
 @primaryColorFocus: #6987AF;
 @linkHoverColor: @primaryColor;
 @primaryColorHover: #ffffff00;
+@positiveColor: #048f82;
+@positiveTextColor: @textColor;
 
 
 /*-------------------
