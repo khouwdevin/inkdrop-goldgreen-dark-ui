@@ -15,3 +15,7 @@
 @primaryColorHover: rgb(177, 125, 29);
 @primaryColorFocus: rgb(177, 125, 29);
 @primaryColorDown: rgb(177, 125, 29);
+
+@positiveColor: #048f82;
+@positiveColorHover: #c58c00;
+@positiveTextColor: @textColor;

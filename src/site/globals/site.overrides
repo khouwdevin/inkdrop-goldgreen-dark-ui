@@ -327,7 +327,7 @@
   --positive-background-color: @positiveBackgroundColor;
   --positive-border-color: @positiveBorderColor;
   --positive-header-color: @positiveHeaderColor;
-  --positive-text-color: @positiveTextColor;
+  --positive-text-color: @textColor;
 
   /* Negative */
   --negative-color: @negativeColor;
