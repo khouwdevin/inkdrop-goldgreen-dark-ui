@@ -45,7 +45,7 @@
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
 @noteListViewItemColor: @mutedTextColor;
 @noteListViewItemSeparatorBorder: 1px solid @white;
-@noteListViewItemDateColor: rgb(145, 128, 35);
+@noteListViewItemDateColor: #c7a802;
 @noteListViewItemTagColor: rgb(30, 114, 186);
 @noteListViewItemActiveBackground: rgb(160, 118, 10);
 @noteListViewItemActiveColor: @textColor;

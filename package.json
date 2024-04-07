@@ -1,6 +1,6 @@
 {
   "name": "goldgreen-dark-ui",
-  "version": "1.4.9",
+  "version": "1.4.10",
   "theme": "ui",
   "main": "./lib/index",
   "styleSheets": [
