@@ -1,9 +1,0 @@
-/*******************************
-         Site Overrides
-*******************************/
-
-@headerBackground: rgb(20, 20, 20);
-@headerBorder: 1px solid rgb(222, 158, 38);
-@contentBackground: rgb(25, 25, 25);
-@actionBackground: rgb(25, 25, 25);
-@actionBorder: 1px solid rgb(222, 158, 38);

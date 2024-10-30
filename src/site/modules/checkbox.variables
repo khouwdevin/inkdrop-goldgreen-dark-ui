@@ -1,9 +1,0 @@
-/*******************************
-    User Variable Overrides
-*******************************/
-
-@handleBackground: #ffffff;
-
-@toggleOnLaneColor: #1b9f93;
-
-@toggleOnFocusLaneColor: rgb(31, 145, 135);
