@@ -116,6 +116,7 @@
   --info-header-color: var(--text-color);
   --info-text-color: var(--text-color-muted);
   --info-background-color: hsl(var(--hsl-gold) / 20%);
+  --info-border-color: hsl(var(--hsl-fg-muted) / 40%);
   --preferences-sidebar-item-active-background: var(--color-gold-200);
   --preferences-view-background: hsl(var(--hsl-bg));
   --tabular-menu-border-color: hsl(var(--hsl-gold));
@@ -126,6 +127,7 @@
   --focus-outline-color: hsl(var(--hsl-fg-muted) / 40%);
   --focused-form-muted-border-color: hsl(var(--hsl-fg-muted) / 40%);
   --focused-form-border-color: hsl(var(--hsl-fg-muted) / 60%);
+  --focused-outline-color: var(--color-gold-100);
 }
 
 :root:has(body.acrylic-window) {
