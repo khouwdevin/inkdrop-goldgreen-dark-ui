@@ -9,7 +9,10 @@
     "tokens.css",
     "theme.css"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev": "dev-server",
+    "generate": "generate-pallete"
+  },
   "keywords": [
     "inkdrop",
     "markdown"

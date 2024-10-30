@@ -4,8 +4,8 @@
   --page-background: var(--color-bg);
   --text-color: hsl(var(--hsl-fg));
   --text-color-muted: hsl(var(--hsl-fg-muted));
-  --link-hover-color: hsl(var(--hsl-gold-link));
-  --link-color: hsl(var(--hsl-gold-link) / 80%);
+  --link-hover-color: var(--color-gold-600);
+  --link-color: hsl(var(--hsl-gold-600) / 80%);
   --negative-color: var(--color-red-600);
   --dark-text-color: hsl(var(--hsl-base3) / 30%);
   --muted-text-color: hsl(var(--hsl-base3) / 40%);
@@ -36,14 +36,17 @@
   --primary-color-focus: var(--color-blue-700);
   --primary-button-focus-background-color: hsl(var(--hsl-gold) / 40%);
   --button-background: hsl(var(--hsl-gold) / 40%) none;
+  --button-hover-background-color: var(--color-gold-100);
+  --button-hover-color: var(--color-gold-100);
+  --button-hover-background-image: var(--color-gold-100);
   --button-text-color: hsl(var(--hsl-fg));
-  --button-hover-background-color: hsl(var(--hsl-base02));
+  --button-hover-background-color: hsl(var(--hsl-gold) / 60%);
   --button-down-background-color: hsl(var(--hsl-base03) / 80%);
   --button-active-background-color: hsl(var(--hsl-base01) / 70%);
   --basic-button-box-shadow: 0px 0px 0px 1px var(--color-base05) inset;
   --basic-button-hover-background: hsl(var(--hsl-base03) / 50%);
   --basic-button-down-background: hsl(var(--hsl-base03) / 50%);
-  --label-basic-background: none hsl(var(--hsl-greenish));
+  --label-basic-background: none var(--color-green);
   --segment-background: var(--hsl-bg);
   --secondary-segment-background: hsl(var(--hsl-base02));
   --grouped-segment-group-segment-box-shadow: 0 0 0 1px
@@ -65,15 +68,15 @@
   --checkbox-active-focus-background: var(--color-base02);
   --toggle-lane-background: var(--strong-transparent-black);
   --dropdown-menu-background: var(--color-bg);
-  --inline-dropdown-menu-background: hsl(var(--hsl-base04) / 70%);
+  --inline-dropdown-menu-background: none hsl(var(--hsl-gold-100) / 80%);
   --modal-box-header-background: var(--color-bg-highlight);
-  --modal-box-content-background: var(--color-bg-muted-highlight);
+  --modal-box-content-background: var(--color-bg);
   --modal-box-actions-background: var(--color-bg-muted-highlight);
   --sidebar-background: var(--color-bg);
   --sidebar-border-right: 1px solid hsl(var(--hsl-base02));
   --sidebar-menu-item-color: var(--text-color);
-  --sidebar-menu-item-inactive-background: hsl(var(--hsl-dark-gold));
-  --sidebar-sync-status-view-background: hsl(var(--hsl-bg-highlight) / 30%);
+  --sidebar-menu-item-inactive-background: var(--color-gold-400);
+  --sidebar-sync-status-view-background: hsl(var(--hsl-bg));
   --sidebar-sync-status-view-border-top: 1px solid hsl(var(--hsl-base02));
   --sidebar-sync-status-view-text-color: var(--text-color-muted);
   --note-list-bar-background: var(--color-bg);
@@ -81,39 +84,38 @@
   --note-list-view-item-color: var(--text-color-muted);
   --note-list-view-item-header-color: var(--text-color);
   --note-list-view-item-separator-border: 1px solid hsl(var(--hsl-base02));
-  --note-list-view-item-date-color: hsl(var(--hsl-gold-active-text));
-  --note-list-view-item-selected-background: hsl(var(--hsl-gold-active));
-  --note-list-view-item-active-background: hsl(var(--hsl-gold-active));
+  --note-list-view-item-date-color: var(--color-gold-800);
+  --note-list-view-item-selected-background: var(--color-gold-200);
+  --note-list-view-item-active-background: var(--color-gold-200);
   --note-search-bar-input-background: hsl(var(--hsl-grey));
   --mark-color: var(--color-gray-50);
   --editor-background: var(--color-bg);
   --editor-floating-actions-background: hsl(var(--hsl-gold) / 40%);
-  --editor-drawer-background: hsl(var(--hsl-base03) / 70%);
-  --notification-item-background: hsl(var(--hsl-gold) / 50%);
+  --editor-drawer-background: none hsl(var(--hsl-gold-100) / 60%);
+  --notification-item-background: hsl(var(--hsl-gold-100) / 40%);
   --preferences-sidebar-background: hsl(var(--hsl-bg));
   --preferences-view-background: hsl(var(--hsl-bg-muted-highlight));
-  --tag-default-circular-background-color: hsl(var(--hsl-tags));
-  --tag-default-circular-border-color: hsl(var(--hsl-tags));
-  --tag-default-background-color: hsl(var(--hsl-greenish));
+  --tag-default-circular-background-color: var(--color-blue);
+  --tag-default-circular-border-color: var(--color-blue);
+  --tag-default-background-color: var(--color-green);
   --tag-default-text-color: var(--text-color-muted);
   --tag-grey-color: none var(--text-color);
   --info-header-color: var(--text-color);
   --info-text-color: var(--text-color-muted);
   --info-background-color: hsl(var(--hsl-gold) / 20%);
-  --preferences-sidebar-item-active-background: hsl(var(--hsl-gold-active));
+  --preferences-sidebar-item-active-background: var(--color-gold-200);
   --preferences-view-background: hsl(var(--hsl-bg));
   --tabular-menu-border-color: hsl(var(--hsl-gold));
-  --tabular-menu-active-background: none hsl(var(--hsl-gold-active));
+  --tabular-menu-active-background: none var(--color-gold-200);
+  --scrollbar-thumb-background: none var(--color-blue);
 }
 
 :root:has(body.acrylic-window) {
   --page-background: transparent;
-  --editor-background: transparent;
-  --editor-drawer-background: hsl(var(--hsl-base04));
-  --note-list-bar-background: rgb(0 0 0 / 20%);
-  --sidebar-background: transparent;
-  --inline-dropdown-menu-background: hsl(var(--hsl-base04));
-  --sidebar-sync-status-view-background: rgb(0 0 0 / 20%);
+  --editor-background: rgb(0 0 0 / 20%);
+  --note-list-bar-background: rgb(0 0 0 / 40%);
+  --sidebar-background: rgb(0 0 0 / 20%);
+  --sidebar-sync-status-view-background: rgb(0 0 0 / 10%);
 }
 
 :root:has(body.acrylic-window.platform-win32) {

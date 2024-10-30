@@ -1,29 +1,35 @@
 :root {
-  /* Changes */
+  /* Added */
   --hsl-gold: 43deg 100% 43%;
-  --hsl-dark-gold: 43deg 85% 24%;
+  --hsl-gold-100: 41deg 43% 21%;
+  --hsl-gold-200: 42deg 61% 37%;
+  --hsl-gold-400: 43deg 85% 24%;
+  --hsl-gold-600: 43deg 100% 63%;
+  --hsl-gold-800: 54deg 54% 62%;
 
-  --hsl-gold-active: 42 61% 37%;
+  --color-gold: hsl(var(--hsl-gold));
+  --color-gold-100: hsl(var(--hsl-gold-100));
+  --color-gold-200: hsl(var(--hsl-gold-200));
+  --color-gold-400: hsl(var(--hsl-gold-400));
+  --color-gold-600: hsl(var(--hsl-gold-600));
+  --color-gold-800: hsl(var(--hsl-gold-800));
 
-  --hsl-blue-1: 208deg 95% 31%;
+  --hsl-blue: 212deg 56% 27%;
+  --color-blue: hsl(var(--hsl-blue));
 
+  --hsl-green: 155deg 38% 46%;
+  --color-green: hsl(var(--hsl-green));
+
+  --hsl-grey: 0 0% 10%;
+  /* Added */
+
+  /* Changes */
   --hsl-base02: 0 0% 20%;
 
   --hsl-fg: 0 0% 90%;
   --hsl-fg-muted: 0 0% 85%;
 
-  --hsl-gold-active-text: 54 54% 62%;
-  --hsl-gold-nonactive-text: 41 43% 21%;
-
-  --hsl-gold-link: 43deg 100% 63%;
-
-  --hsl-tags: 212 56% 27%;
-
-  --hsl-greenish: 155 38% 46%;
-
   --hsl-bg: 0 0% 0%;
-
-  --hsl-grey: 0 0% 10%;
   /* Changes */
 
   --hsl-base05: 192deg 100% 5%;
@@ -72,7 +78,6 @@
   --hsl-violet-700: 237deg 43% 50%;
   --hsl-violet-900: 237deg 42% 25%;
 
-  --hsl-blue: 205deg 69% 49%;
   --hsl-blue-100: 205deg 100% 83%;
   --hsl-blue-300: 205deg 90% 62%;
   --hsl-blue-500: 205deg 69% 49%;
@@ -86,7 +91,6 @@
   --hsl-cyan-700: 182deg 59% 25%;
   --hsl-cyan-900: 183deg 58% 15%;
 
-  --hsl-green: 68deg 100% 30%;
   --hsl-green-100: 90deg 100% 84%;
   --hsl-green-300: 76deg 100% 49%;
   --hsl-green-500: 68deg 100% 30%;
@@ -143,7 +147,6 @@
   --color-violet-700: hsl(var(--hsl-violet-700));
   --color-violet-900: hsl(var(--hsl-violet-900));
 
-  --color-blue: hsl(var(--hsl-blue));
   --color-blue-100: hsl(var(--hsl-blue-100));
   --color-blue-300: hsl(var(--hsl-blue-300));
   --color-blue-500: hsl(var(--hsl-blue-500));
@@ -157,7 +160,6 @@
   --color-cyan-700: hsl(var(--hsl-cyan-700));
   --color-cyan-900: hsl(var(--hsl-cyan-900));
 
-  --color-green: hsl(var(--hsl-green));
   --color-green-100: hsl(var(--hsl-green-100));
   --color-green-300: hsl(var(--hsl-green-300));
   --color-green-500: hsl(var(--hsl-green-500));
