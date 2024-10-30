@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "dev": "dev-server",
-    "generate": "generate-pallete"
+    "generate": "generate-palette"
   },
   "keywords": [
     "inkdrop",
