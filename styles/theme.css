@@ -128,6 +128,7 @@
   --focused-form-muted-border-color: hsl(var(--hsl-fg-muted) / 40%);
   --focused-form-border-color: hsl(var(--hsl-fg-muted) / 60%);
   --focused-outline-color: var(--color-gold-100);
+  --off-white: hsl(0 0 15%);
 }
 
 :root:has(body.acrylic-window) {
