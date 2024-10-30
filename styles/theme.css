@@ -75,6 +75,7 @@
   --sidebar-background: var(--color-bg);
   --sidebar-border-right: 1px solid hsl(var(--hsl-base02));
   --sidebar-menu-item-color: var(--text-color);
+  --sidebar-menu-item-active-background: var(--color-gold-200);
   --sidebar-menu-item-inactive-background: var(--color-gold-400);
   --sidebar-sync-status-view-background: hsl(var(--hsl-bg));
   --sidebar-sync-status-view-border-top: 1px solid hsl(var(--hsl-base02));
@@ -84,8 +85,8 @@
   --note-list-view-item-color: var(--text-color-muted);
   --note-list-view-item-header-color: var(--text-color);
   --note-list-view-item-separator-border: 1px solid hsl(var(--hsl-base02));
-  --note-list-view-item-date-color: var(--color-gold-800);
-  --note-list-view-item-selected-background: var(--color-gold-200);
+  --note-list-view-item-date-color: var(--color-gold);
+  --note-list-view-item-selected-background: var(--color-gold-400);
   --note-list-view-item-active-background: var(--color-gold-200);
   --note-search-bar-input-background: hsl(var(--hsl-grey));
   --mark-color: var(--color-gray-50);
@@ -100,6 +101,7 @@
   --tag-default-background-color: var(--color-green);
   --tag-default-text-color: var(--text-color-muted);
   --tag-grey-color: none var(--text-color);
+  --tag-yellow-color: var(--color-white);
   --info-header-color: var(--text-color);
   --info-text-color: var(--text-color-muted);
   --info-background-color: hsl(var(--hsl-gold) / 20%);
