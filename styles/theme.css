@@ -1,5 +1,6 @@
 :root {
   --primary-color: hsl(var(--hsl-gold));
+  --light-primary-color: hsl(var(--hsl-gold));
   --input-background: var(--color-bg);
   --page-background: var(--color-bg);
   --text-color: hsl(var(--hsl-fg));
@@ -29,12 +30,14 @@
   --selected-border-color: hsl(var(--hsl-base3) / 35%);
   --strong-selected-border-color: hsl(var(--hsl-base3) / 50%);
   --disabled-border-color: hsl(var(--hsl-base3) / 50%);
-  --solid-internal-border-color: hsl(var(--hsl-base03));
-  --solid-border-color: hsl(var(--hsl-base01));
-  --solid-selected-border-color: hsl(var(--hsl-base03));
+  --solid-internal-border-color: hsl(var(--hsl-fg-muted) / 40%);
+  --solid-border-color: hsl(var(--hsl-fg-muted) / 40%);
+  --solid-selected-border-color: hsl(var(--hsl-fg-muted) / 40%);
   --primary-color-hover: hsl(var(--hsl-gold) / 40%);
-  --primary-color-focus: var(--color-blue-700);
+  --primary-color-focus: var(--color-gold);
   --primary-button-focus-background-color: hsl(var(--hsl-gold) / 40%);
+  --primary-button-active-background-color: var(--hsl-gold);
+  --primary-button-down-background-color: var(--hsl-gold);
   --button-background: hsl(var(--hsl-gold) / 40%) none;
   --button-hover-background-color: var(--color-gold-100);
   --button-hover-color: var(--color-gold-100);
@@ -44,7 +47,7 @@
   --button-down-background-color: hsl(var(--hsl-base03) / 80%);
   --button-active-background-color: hsl(var(--hsl-base01) / 70%);
   --basic-button-box-shadow: 0px 0px 0px 1px var(--color-base05) inset;
-  --basic-button-hover-background: hsl(var(--hsl-base03) / 50%);
+  --basic-button-hover-background: var(--color-gold-200);
   --basic-button-down-background: hsl(var(--hsl-base03) / 50%);
   --label-basic-background: none var(--color-green);
   --segment-background: var(--hsl-bg);
@@ -58,7 +61,10 @@
   --grouped-segment-hover-background: hsl(var(--hsl-base02) / 80%);
   --piled-segments-background: var(--subtle-transparent-black);
   --form-select-background: var(--color-bg);
+  --form-input-focus-border-color: hsl(var(--hsl-fg-muted) / 40%);
+  --form-textarea-focus-border-color: hsl(var(--hsl-fg-muted) / 40%);
   --menu-background: var(--color-bg);
+  --vertical-menu-background: var(--color-bg);
   --tabular-menu-active-background: none hsl(var(--hsl-base03));
   --message-background: hsl(var(--hsl-grey));
   --checkbox-background: hsl(var(--hsl-gold) / 40%);
@@ -66,12 +72,17 @@
   --checkbox-focus-background: var(--color-base02);
   --checkbox-active-background: hsl(var(--hsl-gold) / 40%);
   --checkbox-active-focus-background: var(--color-base02);
+  --checkbox-focus-border-color: var(--color-white);
+  --checkbox-active-focus-border-color: var(--color-white);
   --toggle-lane-background: var(--strong-transparent-black);
+  --toggle-on-focus-lane-color: var(--color-gold-200);
   --dropdown-menu-background: var(--color-bg);
   --inline-dropdown-menu-background: none hsl(var(--hsl-gold-100) / 80%);
   --modal-box-header-background: var(--color-bg-highlight);
   --modal-box-content-background: var(--color-bg);
   --modal-box-actions-background: var(--color-bg-muted-highlight);
+  --modal-box-header-background: var(--color-bg);
+  --modal-box-actions-background: var(--color-bg);
   --sidebar-background: var(--color-bg);
   --sidebar-border-right: 1px solid hsl(var(--hsl-base02));
   --sidebar-menu-item-color: var(--text-color);
@@ -110,6 +121,11 @@
   --tabular-menu-border-color: hsl(var(--hsl-gold));
   --tabular-menu-active-background: none var(--color-gold-200);
   --scrollbar-thumb-background: none var(--color-blue);
+  --input-focus-border-color: var(--color-gold);
+  --input-focus-box-shadow: hsl(var(--hsl-fg-muted) / 40%) none;
+  --focus-outline-color: hsl(var(--hsl-fg-muted) / 40%);
+  --focused-form-muted-border-color: hsl(var(--hsl-fg-muted) / 40%);
+  --focused-form-border-color: hsl(var(--hsl-fg-muted) / 60%);
 }
 
 :root:has(body.acrylic-window) {
