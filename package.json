@@ -1,7 +1,7 @@
 {
   "name": "goldgreen-dark-ui",
   "description": "Gold and green ui theme",
-  "version": "1.4.12",
+  "version": "1.4.13",
   "theme": "ui",
   "themeAppearance": "dark",
   "type": "module",
