@@ -21,7 +21,7 @@
   "author": "khouwdevin<khouwdevin@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@inkdropapp/theme-dev-helpers": "^0.3.6"
+    "@inkdropapp/theme-dev-helpers": "^0.3.7"
   },
   "engines": {
     "inkdrop": "^5.9.0"
