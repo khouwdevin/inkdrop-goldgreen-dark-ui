@@ -40,7 +40,7 @@
   --primary-button-down-background-color: var(--hsl-gold);
   --button-background: hsl(var(--hsl-gold) / 40%) none;
   --button-hover-background-color: var(--color-gold-100);
-  --button-hover-color: var(--color-gold-100);
+  --button-hover-color: hsl(var(--hsl-fg));
   --button-hover-background-image: var(--color-gold-100);
   --button-text-color: hsl(var(--hsl-fg));
   --button-hover-background-color: hsl(var(--hsl-gold) / 60%);
@@ -130,6 +130,9 @@
   --focused-outline-color: var(--color-gold-100);
   --off-white: hsl(0 0 15%);
   --warning-color: var(--color-gold-400);
+  --positive-button-background-color: var(--color-green);
+  --positive-button-hover-background-color: var(--color-gold-100);
+  --positive-button-text-color: hsl(var(--hsl-fg));
 }
 
 :root:has(body.acrylic-window) {
