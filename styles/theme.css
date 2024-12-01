@@ -91,6 +91,7 @@
   --sidebar-sync-status-view-background: hsl(var(--hsl-bg));
   --sidebar-sync-status-view-border-top: 1px solid hsl(var(--hsl-base02));
   --sidebar-sync-status-view-text-color: var(--text-color-muted);
+  --sidebar-notification-view-color: var(--text-color-muted);
   --note-list-bar-background: var(--color-bg);
   --note-list-bar-border-right: 1px solid hsl(var(--hsl-base02));
   --note-list-view-item-color: var(--text-color-muted);

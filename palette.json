@@ -979,7 +979,7 @@
   "--sidebar-scrollbar-track-background": "rgba(255, 255, 255, 0.02)",
   "--sidebar-scrollbar-thumb-background": "rgba(255, 255, 255, 0.2)",
   "--sidebar-notification-view-background": "hsl(43deg 85% 24%)",
-  "--sidebar-notification-view-color": "hsl(22deg 78% 26% / 90%)",
+  "--sidebar-notification-view-color": "hsl(0 0% 85%)",
   "--scrollbar-width": "6px",
   "--scrollbar-track-background": "rgba(255, 255, 255, 0.02)",
   "--scrollbar-thumb-background": "none hsl(212deg 56% 27%)",
