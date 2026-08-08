@@ -41,8 +41,8 @@
     --hsl-fg-muted: 0 0% 85%;
     --hsl-base3: 44deg 87% 94%;
 
-    /* Background family */
-    --hsl-bg: 0 0% 0%;
+    /* Background family — near-black with a hint of gold, like runtut.app's dark background */
+    --hsl-bg: 43deg 35% 6%;
     --hsl-base05: 192deg 100% 5%;
     --hsl-base04: 192deg 100% 8%;
     --hsl-base03: 192deg 100% 11%;
