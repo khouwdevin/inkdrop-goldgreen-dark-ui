@@ -1,21 +1,15 @@
-# Gold Green UI Theme for Inkdrop
+# Gold Green Theme for Inkdrop
 
-## Install
+Gold and green dark theme for [Inkdrop](https://www.inkdrop.app/), styling
+the UI, syntax highlighting, and Markdown preview all in one theme.
 
+![screenshot](./img/image.png)
+
+## Installation
+
+```sh
+ipm install goldgreen-dark-ui
 ```
-ipm install goldgreen-dark-ui 
-```
 
-Go to Preferences → Themes → Enable the experimental feature "Acrylic translucent background".
-
-![Preferences](https://github.com/inkdropapp/vibrant-dark-ui/blob/master/img/windows-preferences.png?raw=true)
-
-### Gold and Green combine together
-
-![Screenshot1](https://github.com/khouwdevin/inkdrop-goldgreen-dark-ui/blob/master/img/img1.png?raw=true)
-
-### Match perfectly with stylized and fantasy syntax theme
-
-![Screenshot on Windows](https://github.com/khouwdevin/inkdrop-goldgreen-dark-ui/blob/master/img/img2.png?raw=true)
-
-Here's the syntax theme [stylized-dark-ui](https://github.com/khouwdevin/inkdrop-stylized-fantasy-syntax-theme) || [stylized-dark-ui inkdrop](https://my.inkdrop.app/plugins/goldgreen-dark-ui)
+Enable it from Preferences → Themes. Optionally turn on the experimental
+"Acrylic translucent background" feature there for a translucent window.
