@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "dev-server",
     "generate": "generate-palette",
-    "prepublishOnly": "generate-palette"
+    "prepublishOnly": "node node_modules/@inkdropapp/theme-dev-helpers/bin/generate-palette"
   },
   "keywords": [
     "inkdrop",
