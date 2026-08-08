@@ -1,0 +1,24 @@
+/*
+ * Ported from inkdrop-sharp-fourth-preview-theme. That theme shipped a full
+ * generic markdown stylesheet; v6 already embeds equivalent base markdown
+ * CSS (@inkdropapp/css markdown.css), and most --mde-preview-* variables
+ * already fall back to the --text-color/--link-color/etc. set in ui.css, so
+ * only the values that gave the old preview its own identity are overridden
+ * here. Preview code-block token colors come from syntax.css's --syntax-*
+ * variables (shared with the editor), so they don't need to be repeated.
+ */
+@layer theme.preview {
+  :root {
+    --mde-preview-blockquote-border-color: var(--color-gold-400);
+    --mde-preview-blockquote-text-color: var(--text-color);
+    /* No border under rendered headings */
+    --mde-preview-h1-border-width: 0;
+    --mde-preview-heading-border-width: 0;
+    --mde-preview-table-head-background-color: hsl(var(--hsl-gold) / 10%);
+    --mde-preview-table-row-stripe-background-color: hsl(0deg 0% 100% / 5%);
+    --mde-preview-inline-code-background-color: hsl(0deg 0% 0% / 10%);
+    --mde-preview-codeblock-background-color: hsl(0deg 0% 0% / 10%);
+    --mde-preview-hr-background-color: hsl(0deg 0% 100% / 30%);
+    --mde-preview-task-list-checked-color: var(--color-green);
+  }
+}

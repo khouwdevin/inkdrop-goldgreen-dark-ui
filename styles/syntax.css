@@ -1,0 +1,156 @@
+/*
+ * Ported from inkdrop-stylized-fantasy-syntax-theme (CodeMirror 5 selectors)
+ * to v6's --syntax-*\--editor-* variables. Setting the "family" variable is
+ * enough — v6's base syntax layer chains the constant/standard/special/etc.
+ * variants back to it, so per-token overrides below aren't needed unless the
+ * fantasy theme picked a genuinely different color for that variant.
+ */
+@layer theme.syntax {
+  :root {
+    --fantasy-black: hsl(0deg 0% 0%);
+    --fantasy-pink: hsl(300deg 100% 60%);
+    --fantasy-cyan: hsl(180deg 100% 50%);
+    --fantasy-darkercyan: hsl(180deg 100% 40%);
+    --fantasy-cyan04: hsl(180deg 100% 20%);
+    --fantasy-blue: hsl(200deg 100% 50%);
+    --fantasy-lightblue: hsl(200deg 100% 60%);
+    --fantasy-red: hsl(0deg 100% 60%);
+    --fantasy-gold: hsl(40deg 100% 50%);
+    --fantasy-aliceblue: hsl(200deg 100% 95%);
+    --fantasy-white: hsl(0deg 0% 90%);
+    --fantasy-yellow: hsl(40deg 100% 60%);
+    --fantasy-grey05: hsl(0deg 0% 30% / 50%);
+    --fantasy-darkwhite: hsl(0deg 0% 80%);
+    --fantasy-lightergray: hsl(0deg 0% 70%);
+    --fantasy-comment: hsl(200deg 12% 30%);
+    --fantasy-error: hsl(0deg 100% 50%);
+
+    /*
+     * Editor chrome
+     */
+    --editor-foreground-color: var(--fantasy-white);
+    --editor-background-color: var(--color-bg);
+    --editor-caret-color: var(--fantasy-aliceblue);
+    --editor-selection-background: var(--fantasy-cyan04);
+    --editor-focused-selection-background: var(--fantasy-cyan04);
+    --editor-gutter-background-color: transparent;
+    --editor-gutter-color: var(--fantasy-comment);
+    --editor-active-line-background-color: var(--fantasy-grey05);
+    --editor-active-line-gutter-background-color: var(--fantasy-grey05);
+    --editor-matching-bracket-outline: 1px solid var(--fantasy-white);
+    --editor-matching-bracket-background-color: transparent;
+    --editor-nonmatching-bracket-outline: 1px solid var(--fantasy-white);
+    --editor-search-match-background-color: var(--fantasy-cyan);
+    --editor-search-match-selected-background-color: var(--fantasy-cyan);
+
+    /*
+     * Syntax tokens
+     */
+    --syntax-comment-color: var(--fantasy-comment);
+    --syntax-comment-font-style: italic;
+
+    --syntax-name-definition-color: var(--fantasy-white);
+    --syntax-name-function-color: var(--fantasy-white);
+    --syntax-variable-name-color: var(--fantasy-lightblue);
+    --syntax-variable-name-definition-color: var(--fantasy-white);
+    --syntax-variable-name-function-color: var(--fantasy-white);
+    --syntax-property-name-color: var(--fantasy-white);
+
+    --syntax-tag-name-color: var(--fantasy-white);
+    --syntax-attribute-name-color: var(--fantasy-pink);
+    --syntax-attribute-value-color: var(--fantasy-red);
+    --syntax-class-name-color: var(--fantasy-darkwhite);
+
+    --syntax-string-color: var(--fantasy-red);
+    --syntax-url-color: var(--fantasy-red);
+
+    --syntax-number-color: var(--fantasy-pink);
+    --syntax-atom-color: var(--fantasy-pink);
+    --syntax-bool-color: var(--fantasy-pink);
+
+    --syntax-keyword-color: var(--fantasy-pink);
+    --syntax-control-keyword-color: var(--fantasy-pink);
+    --syntax-operator-keyword-color: var(--fantasy-pink);
+    --syntax-definition-keyword-color: var(--fantasy-pink);
+    --syntax-module-keyword-color: var(--fantasy-pink);
+
+    --syntax-operator-color: var(--fantasy-gold);
+    --syntax-bracket-color: var(--fantasy-gold);
+    --syntax-brace-color: var(--fantasy-gold);
+    --syntax-paren-color: var(--fantasy-gold);
+    --syntax-square-bracket-color: var(--fantasy-gold);
+    --syntax-angle-bracket-color: var(--fantasy-gold);
+
+    --syntax-meta-color: var(--fantasy-darkercyan);
+    --syntax-annotation-color: var(--fantasy-darkercyan);
+    --syntax-invalid-color: var(--fantasy-error);
+    --syntax-deleted-color: var(--fantasy-error);
+
+    --syntax-heading-color: var(--fantasy-white);
+    --syntax-heading-font-weight: bold;
+    --syntax-quote-color: var(--fantasy-gold);
+    --syntax-quote-font-style: italic;
+    --syntax-list-color: var(--fantasy-gold);
+    --syntax-emphasis-color: var(--fantasy-gold);
+    --syntax-emphasis-font-style: italic;
+    --syntax-strong-color: var(--fantasy-gold);
+    --syntax-strong-font-weight: bold;
+    --syntax-link-color: var(--fantasy-yellow);
+    --syntax-strikethrough-text-decoration: line-through;
+    /* Words inside list items (`.tok-content`, confirmed via devtools) */
+    --syntax-content-color: var(--fantasy-gold);
+
+    --md-inline-code-background-color: hsl(0deg 0% 0% / 2%);
+    --md-inline-code-border-color: transparent;
+    --md-codeblock-background-color: hsl(0deg 0% 0% / 1%);
+    /* Bullet `-`, ordered `1.`, and checkbox dash markers */
+    --md-list-mark-color: var(--fantasy-gold);
+    /* Left bar shown next to `>` blockquote lines in the editor */
+    --md-blockquote-border-color: var(--fantasy-gold);
+  }
+
+  :root:has(body.acrylic-window) {
+    --editor-background-color: transparent;
+  }
+
+  /*
+   * Markdown formatting marks (the raw `#`, `**`, `~~`, `` ` ``, `[]()`,
+   * `[ ]`/`[x]` and `|` characters themselves, only visible in the editor —
+   * the rendered preview shows real headings/bold/etc. instead). Uses the
+   * same green as the tag pills for one consistent accent.
+   */
+  .cm-editor {
+    .md-header-mark,
+    .md-emphasis-mark,
+    .md-strikethrough-mark,
+    .md-code-mark,
+    .md-link-mark,
+    .md-task-marker {
+      color: var(--color-green);
+    }
+
+    /*
+     * Words wrapped in ~~strikethrough~~ — excludes the `~~` mark itself
+     * (also carries .tok-strikethrough), which stays green from the rule
+     * above.
+     */
+    .tok-strikethrough:not(.md-strikethrough-mark) {
+      color: var(--fantasy-gold);
+    }
+
+    /* `|` column separators and the `---` header rule in raw tables */
+    .md-table-delimiter {
+      color: var(--fantasy-gold);
+    }
+
+    /*
+     * The `[ ]`/`[x]` checkbox text is also tagged `.tok-list`/`.tok-atom`
+     * (checkboxes are list items too), which otherwise wins over the
+     * `.md-task-marker` rule above since it's a direct match, not inherited.
+     */
+    .md-task-marker .tok-list,
+    .md-task-marker .tok-atom {
+      color: var(--color-green);
+    }
+  }
+}

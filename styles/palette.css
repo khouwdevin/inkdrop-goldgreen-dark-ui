@@ -1,0 +1,61 @@
+/*
+ * Shared color tokens for the goldgreen-dark-ui theme (ui.css, syntax.css,
+ * preview.css). Only the custom tokens actually consumed by this theme are
+ * defined here — everything else (full neutral/accent ramps, spacing, etc.)
+ * already ships in @inkdropapp/css's own tokens.css.
+ */
+@layer theme {
+  :root {
+    /* Signature accent: gold */
+    --hsl-gold: 43deg 100% 43%;
+    --hsl-gold-100: 41deg 43% 21%;
+    --hsl-gold-200: 42deg 61% 37%;
+    --hsl-gold-400: 43deg 85% 24%;
+    --hsl-gold-600: 43deg 100% 63%;
+    --hsl-gold-800: 54deg 54% 62%;
+
+    --color-gold: hsl(var(--hsl-gold));
+    --color-gold-100: hsl(var(--hsl-gold-100));
+    --color-gold-200: hsl(var(--hsl-gold-200));
+    --color-gold-400: hsl(var(--hsl-gold-400));
+    --color-gold-600: hsl(var(--hsl-gold-600));
+    --color-gold-800: hsl(var(--hsl-gold-800));
+
+    /* Secondary accent: green (matches the theme's name) */
+    --hsl-green: 152deg 50% 58%;
+    --color-green: hsl(var(--hsl-green));
+
+    /* Single-shade accent used for tag icons */
+    --hsl-blue: 212deg 56% 27%;
+    --color-blue: hsl(var(--hsl-blue));
+
+    /* Bright, legible yellow — kept clearly apart in hue from the green accent */
+    --hsl-yellow: 48deg 95% 60%;
+    --color-yellow: hsl(var(--hsl-yellow));
+
+    /* Neutral grayscale used for panels/inputs */
+    --hsl-grey: 0 0% 10%;
+
+    /* Foreground (text) family */
+    --hsl-fg: 0 0% 90%;
+    --hsl-fg-muted: 0 0% 85%;
+    --hsl-base3: 44deg 87% 94%;
+
+    /* Background family */
+    --hsl-bg: 0 0% 0%;
+    --hsl-base05: 192deg 100% 5%;
+    --hsl-base04: 192deg 100% 8%;
+    --hsl-base03: 192deg 100% 11%;
+    --hsl-base02: 0 0% 20%;
+    --hsl-base01: 194deg 14% 40%;
+
+    --hsl-bg-highlight: var(--hsl-base03);
+    --hsl-bg-muted-highlight: var(--hsl-base04);
+
+    --color-base02: hsl(var(--hsl-base02));
+    --color-base05: hsl(var(--hsl-base05));
+    --color-bg: hsl(var(--hsl-bg));
+    --color-bg-highlight: hsl(var(--hsl-bg-highlight));
+    --color-bg-muted-highlight: hsl(var(--hsl-bg-muted-highlight));
+  }
+}
