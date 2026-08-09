@@ -11,12 +11,10 @@
     --fantasy-pink: hsl(300deg 100% 60%);
     --fantasy-cyan: hsl(180deg 100% 50%);
     --fantasy-darkercyan: hsl(180deg 100% 40%);
-    --fantasy-cyan04: hsl(180deg 100% 20%);
     --fantasy-blue: hsl(200deg 100% 50%);
     --fantasy-lightblue: hsl(200deg 100% 60%);
     --fantasy-red: hsl(0deg 100% 60%);
     --fantasy-gold: hsl(40deg 100% 50%);
-    --fantasy-aliceblue: hsl(200deg 100% 95%);
     --fantasy-white: hsl(0deg 0% 90%);
     --fantasy-yellow: hsl(40deg 100% 60%);
     --fantasy-grey05: hsl(0deg 0% 30% / 50%);
@@ -30,9 +28,11 @@
      */
     --editor-foreground-color: var(--fantasy-white);
     --editor-background-color: var(--color-bg);
-    --editor-caret-color: var(--fantasy-aliceblue);
-    --editor-selection-background: var(--fantasy-cyan04);
-    --editor-focused-selection-background: var(--fantasy-cyan04);
+    /* Same hue as the scrollbar thumb's blue, brightened for visibility against the near-black background */
+    --editor-caret-color: hsl(212deg 65% 60%);
+    /* Same blue as the caret; translucent so the syntax colors underneath stay readable */
+    --editor-selection-background: hsl(var(--hsl-blue) / 45%);
+    --editor-focused-selection-background: hsl(var(--hsl-blue) / 55%);
     --editor-gutter-background-color: transparent;
     --editor-gutter-color: var(--fantasy-comment);
     --editor-active-line-background-color: var(--fantasy-grey05);
@@ -111,6 +111,11 @@
 
   :root:has(body.acrylic-window) {
     --editor-background-color: transparent;
+  }
+
+  /* Round off the selection highlight's corners */
+  .cm-editor .cm-selectionBackground {
+    border-radius: 3px;
   }
 
   /*
