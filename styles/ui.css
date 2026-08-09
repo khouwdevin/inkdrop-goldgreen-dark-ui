@@ -154,7 +154,7 @@
     --note-list-view-item-date-color: var(--color-gold);
     --note-list-view-item-selected-background: var(--color-gold-400);
     --note-list-view-item-active-background: var(--color-gold-200);
-    --note-search-bar-input-background: hsl(var(--hsl-grey));
+    --note-search-bar-input-background: var(--color-bg);
     --mark-color: var(--color-gray-50);
 
     /*-------------------
@@ -208,13 +208,13 @@
   --------------------*/
   :root:has(body.acrylic-window) {
     --page-background: transparent;
-    --editor-background: rgb(0 0 0 / 20%);
-    --note-list-bar-background: rgb(0 0 0 / 40%);
-    --sidebar-background: rgb(0 0 0 / 20%);
-    --sidebar-sync-status-view-background: rgb(0 0 0 / 10%);
+    --editor-background: hsl(var(--hsl-bg) / 20%);
+    --note-list-bar-background: hsl(var(--hsl-bg) / 40%);
+    --sidebar-background: hsl(var(--hsl-bg) / 20%);
+    --sidebar-sync-status-view-background: hsl(var(--hsl-bg) / 10%);
   }
 
   :root:has(body.acrylic-window.platform-win32) {
-    --page-background: rgb(0 0 0 / 40%);
+    --page-background: hsl(var(--hsl-bg) / 40%);
   }
 }
