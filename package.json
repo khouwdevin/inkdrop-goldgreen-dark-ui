@@ -1,7 +1,7 @@
 {
   "name": "goldgreen-dark-ui",
   "description": "Gold and green theme (UI, syntax and preview) for Inkdrop",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "theme": true,
   "themeAppearance": "dark",
   "type": "module",
