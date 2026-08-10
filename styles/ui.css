@@ -97,7 +97,7 @@
     --form-select-background: var(--color-bg);
     --form-input-focus-border-color: hsl(var(--hsl-fg-muted) / 40%);
     --form-textarea-focus-border-color: hsl(var(--hsl-fg-muted) / 40%);
-    --input-focus-border-color: var(--color-gold);
+    --input-focus-border-color: var(--color-green);
     --input-focus-box-shadow: hsl(var(--hsl-fg-muted) / 40%) none;
     --checkbox-background: var(--color-bg);
     --checkbox-pressed-background: var(--color-bg);
@@ -127,7 +127,7 @@
     --modal-box-header-background: var(--color-bg);
     --modal-box-content-background: var(--color-bg);
     --modal-box-actions-background: var(--color-bg);
-    --message-background: hsl(var(--hsl-grey));
+    --message-background: hsl(var(--hsl-green) / 15%);
     --notification-item-background: hsl(var(--hsl-gold-100) / 40%);
 
     /*-------------------
@@ -154,7 +154,7 @@
     --note-list-view-item-date-color: var(--color-gold);
     --note-list-view-item-selected-background: var(--color-gold-400);
     --note-list-view-item-active-background: var(--color-gold-200);
-    --note-search-bar-input-background: var(--color-bg);
+    --note-search-bar-input-background: hsl(var(--hsl-green) / 12%);
     --mark-color: var(--color-gray-50);
 
     /*-------------------
@@ -192,10 +192,10 @@
       Scrollbar & Focus
     --------------------*/
     --scrollbar-thumb-background: none var(--color-blue);
-    --focus-outline-color: hsl(var(--hsl-fg-muted) / 40%);
+    --focus-outline-color: hsl(var(--hsl-green) / 40%);
     --focused-form-muted-border-color: hsl(var(--hsl-fg-muted) / 40%);
     --focused-form-border-color: hsl(var(--hsl-fg-muted) / 60%);
-    --focused-outline-color: var(--color-gold-100);
+    --focused-outline-color: var(--color-green);
 
     /*-------------------
       Misc
