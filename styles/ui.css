@@ -82,13 +82,13 @@
     /*-------------------
       Segments (grouped panels)
     --------------------*/
-    --segment-background: hsl(var(--hsl-bg));
-    --secondary-segment-background: hsl(var(--hsl-base02));
+    --segment-background: hsl(var(--hsl-gold-100) / 25%);
+    --secondary-segment-background: hsl(var(--hsl-green) / 15%);
     --grouped-segment-group-segment-box-shadow:
       0 0 0 1px hsl(var(--hsl-base3) / 20%), 0 1px 1px hsl(var(--hsl-neutral-900) / 0.1),
       0 1.5px 3px -2px hsl(var(--hsl-neutral-900) / 0.3), 0 4px 6px hsl(var(--hsl-neutral-900) / 0.04),
       0 8px 12px -1px hsl(var(--hsl-neutral-900) / 0.03);
-    --grouped-segment-hover-background: hsl(var(--hsl-base02) / 80%);
+    --grouped-segment-hover-background: hsl(var(--hsl-gold-100) / 45%);
     --piled-segments-background: var(--subtle-transparent-black);
 
     /*-------------------
