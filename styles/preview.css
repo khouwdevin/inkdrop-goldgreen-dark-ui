@@ -15,10 +15,27 @@
     --mde-preview-h1-border-width: 0;
     --mde-preview-heading-border-width: 0;
     --mde-preview-table-head-background-color: hsl(var(--hsl-gold) / 10%);
-    --mde-preview-table-row-stripe-background-color: hsl(0deg 0% 100% / 5%);
+    --mde-preview-table-border-color: hsl(var(--hsl-gold) / 25%);
+    --mde-preview-table-row-background-color: hsl(var(--hsl-green) / 6%);
+    --mde-preview-table-row-border-color: hsl(var(--hsl-green) / 15%);
+    --mde-preview-table-row-stripe-background-color: hsl(var(--hsl-green) / 10%);
     --mde-preview-inline-code-background-color: hsl(0deg 0% 0% / 10%);
     --mde-preview-codeblock-background-color: hsl(0deg 0% 0% / 10%);
-    --mde-preview-hr-background-color: hsl(0deg 0% 100% / 30%);
-    --mde-preview-task-list-checked-color: var(--color-green);
+    /* Brighter than --color-blue so it actually reads as blue against the near-black background */
+    --mde-preview-hr-background-color: hsl(212deg 70% 60% / 70%);
+    --mde-preview-hr-border-color: hsl(212deg 70% 60% / 40%);
+    /* Neutral, not thematic: matches --editor-image-widget-backdrop-background-color's
+       intent of a subtle backdrop behind transparent-background images */
+    --mde-preview-image-background-color: hsl(var(--hsl-base3) / 10%);
+    --mde-preview-task-list-checked-color: var(--color-gold);
+  }
+
+  /* Native rendered checkbox in the preview defaults to the browser's blue accent-color */
+  .task-list-item-checkbox {
+    accent-color: var(--color-green);
+  }
+
+  .mde-preview img {
+    border-radius: 0.3em;
   }
 }

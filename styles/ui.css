@@ -102,13 +102,13 @@
     --checkbox-background: var(--color-bg);
     --checkbox-pressed-background: var(--color-bg);
     --checkbox-focus-background: var(--color-base02);
-    /* Checked box: solid gold fill with a white checkmark */
-    --checkbox-active-background: var(--color-gold);
-    --checkbox-active-border-color: var(--color-gold);
+    /* Checked box: solid green fill with a white checkmark */
+    --checkbox-active-background: var(--color-green);
+    --checkbox-active-border-color: var(--color-green);
     --checkbox-active-check-color: var(--color-white);
     --checkbox-focus-check-color: var(--color-white);
-    --checkbox-active-focus-background: var(--color-gold);
-    --checkbox-active-focus-border-color: var(--color-gold);
+    --checkbox-active-focus-background: var(--color-green);
+    --checkbox-active-focus-border-color: var(--color-green);
     --checkbox-active-focus-check-color: var(--color-white);
     --checkbox-intermediate-check-color: var(--color-white);
     --checkbox-focus-border-color: var(--color-white);

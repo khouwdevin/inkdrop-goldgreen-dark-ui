@@ -8,12 +8,14 @@
 @layer theme.syntax {
   :root {
     --fantasy-black: hsl(0deg 0% 0%);
-    --fantasy-pink: hsl(300deg 100% 60%);
     --fantasy-cyan: hsl(180deg 100% 50%);
-    --fantasy-darkercyan: hsl(180deg 100% 40%);
     --fantasy-blue: hsl(200deg 100% 50%);
-    --fantasy-lightblue: hsl(200deg 100% 60%);
-    --fantasy-red: hsl(0deg 100% 60%);
+    /* Bright variant of the theme's blue accent, legible as foreground text */
+    --fantasy-lightblue: hsl(212deg 70% 65%);
+    /* Extra fantasy-flavored accents spread around the wheel from gold/green/blue, for tokens that need to stand apart from those three */
+    --fantasy-teal: hsl(180deg 60% 55%);
+    --fantasy-purple: hsl(265deg 70% 68%);
+    --fantasy-pink: hsl(320deg 65% 68%);
     --fantasy-gold: hsl(40deg 100% 50%);
     --fantasy-white: hsl(0deg 0% 90%);
     --fantasy-yellow: hsl(40deg 100% 60%);
@@ -50,29 +52,30 @@
     --syntax-comment-font-style: italic;
 
     --syntax-name-definition-color: var(--fantasy-white);
-    --syntax-name-function-color: var(--fantasy-white);
-    --syntax-variable-name-color: var(--fantasy-lightblue);
+    --syntax-name-function-color: var(--fantasy-teal);
+    /* Plain identifiers are the most common token in any file, so this carries the signature gold accent */
+    --syntax-variable-name-color: var(--fantasy-gold);
     --syntax-variable-name-definition-color: var(--fantasy-white);
-    --syntax-variable-name-function-color: var(--fantasy-white);
-    --syntax-property-name-color: var(--fantasy-white);
+    --syntax-variable-name-function-color: var(--fantasy-teal);
+    --syntax-property-name-color: var(--color-green);
 
     --syntax-tag-name-color: var(--fantasy-white);
-    --syntax-attribute-name-color: var(--fantasy-pink);
-    --syntax-attribute-value-color: var(--fantasy-red);
-    --syntax-class-name-color: var(--fantasy-darkwhite);
+    --syntax-attribute-name-color: var(--color-green);
+    --syntax-attribute-value-color: var(--fantasy-lightblue);
+    --syntax-class-name-color: var(--fantasy-pink);
 
-    --syntax-string-color: var(--fantasy-red);
-    --syntax-url-color: var(--fantasy-red);
+    --syntax-string-color: var(--fantasy-lightblue);
+    --syntax-url-color: var(--fantasy-lightblue);
 
-    --syntax-number-color: var(--fantasy-pink);
-    --syntax-atom-color: var(--fantasy-pink);
-    --syntax-bool-color: var(--fantasy-pink);
+    --syntax-number-color: var(--color-green);
+    --syntax-atom-color: var(--color-green);
+    --syntax-bool-color: var(--color-green);
 
-    --syntax-keyword-color: var(--fantasy-pink);
-    --syntax-control-keyword-color: var(--fantasy-pink);
-    --syntax-operator-keyword-color: var(--fantasy-pink);
-    --syntax-definition-keyword-color: var(--fantasy-pink);
-    --syntax-module-keyword-color: var(--fantasy-pink);
+    --syntax-keyword-color: var(--fantasy-purple);
+    --syntax-control-keyword-color: var(--fantasy-purple);
+    --syntax-operator-keyword-color: var(--fantasy-purple);
+    --syntax-definition-keyword-color: var(--fantasy-purple);
+    --syntax-module-keyword-color: var(--fantasy-purple);
 
     --syntax-operator-color: var(--fantasy-gold);
     --syntax-bracket-color: var(--fantasy-gold);
@@ -81,16 +84,22 @@
     --syntax-square-bracket-color: var(--fantasy-gold);
     --syntax-angle-bracket-color: var(--fantasy-gold);
 
-    --syntax-meta-color: var(--fantasy-darkercyan);
-    --syntax-annotation-color: var(--fantasy-darkercyan);
+    --syntax-meta-color: var(--fantasy-teal);
+    --syntax-annotation-color: var(--fantasy-teal);
     --syntax-invalid-color: var(--fantasy-error);
     --syntax-deleted-color: var(--fantasy-error);
 
-    --syntax-heading-color: var(--fantasy-white);
+    --syntax-heading-color: var(--fantasy-gold);
     --syntax-heading-font-weight: bold;
+    --syntax-heading-1-color: var(--fantasy-gold);
+    --syntax-heading-2-color: var(--fantasy-gold);
+    --syntax-heading-3-color: var(--fantasy-gold);
+    --syntax-heading-4-color: var(--fantasy-gold);
+    --syntax-heading-5-color: var(--fantasy-gold);
+    --syntax-heading-6-color: var(--fantasy-gold);
     --syntax-quote-color: var(--fantasy-gold);
     --syntax-quote-font-style: italic;
-    --syntax-list-color: var(--fantasy-gold);
+    --syntax-list-color: var(--fantasy-white);
     --syntax-emphasis-color: var(--fantasy-gold);
     --syntax-emphasis-font-style: italic;
     --syntax-strong-color: var(--fantasy-gold);
@@ -98,7 +107,7 @@
     --syntax-link-color: var(--fantasy-yellow);
     --syntax-strikethrough-text-decoration: line-through;
     /* Words inside list items (`.tok-content`, confirmed via devtools) */
-    --syntax-content-color: var(--fantasy-gold);
+    --syntax-content-color: var(--fantasy-white);
 
     --md-inline-code-background-color: hsl(0deg 0% 0% / 2%);
     --md-inline-code-border-color: transparent;
@@ -107,6 +116,7 @@
     --md-list-mark-color: var(--fantasy-gold);
     /* Left bar shown next to `>` blockquote lines in the editor */
     --md-blockquote-border-color: var(--fantasy-gold);
+    --md-task-done-text-decoration-color: var(--fantasy-gold);
   }
 
   :root:has(body.acrylic-window) {
