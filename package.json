@@ -1,5 +1,5 @@
 {
-  "name": "goldgreen-dark-ui",
+  "name": "goldgreen-theme",
   "description": "Gold and green theme (UI, syntax and preview) for Inkdrop",
   "version": "2.0.3",
   "theme": true,
@@ -20,7 +20,7 @@
     "inkdrop",
     "markdown"
   ],
-  "repository": "https://github.com/khouwdevin/inkdrop-goldgreen-dark-ui",
+  "repository": "https://github.com/khouwdevin/inkdrop-goldgreen-theme",
   "author": "khouwdevin<khouwdevin@gmail.com>",
   "license": "MIT",
   "devDependencies": {
