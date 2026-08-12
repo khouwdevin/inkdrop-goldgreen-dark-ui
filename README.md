@@ -8,7 +8,7 @@ the UI, syntax highlighting, and Markdown preview all in one theme.
 ## Installation
 
 ```sh
-ipm install goldgreen-theme
+ipm install goldgreen-dark
 ```
 
 Enable it from Preferences → Themes. Optionally turn on the experimental
