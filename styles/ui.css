@@ -186,7 +186,7 @@
     /* "Official" plugin badge (`.ui.basic.grey.label`), undefined by default */
     --tag-grey-color: var(--color-white);
     /* "Community" plugin badge (`.ui.basic.yellow.label`), undefined by default */
-    --tag-yellow-color: var(--color-yellow);
+    --tag-yellow-color: var(--color-blue);
 
     /*-------------------
       Scrollbar & Focus
