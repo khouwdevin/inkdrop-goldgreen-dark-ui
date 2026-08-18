@@ -137,6 +137,15 @@
     --notification-item-background: hsl(var(--hsl-gold-100) / 40%);
 
     /*-------------------
+      Popups & Tooltips
+    --------------------*/
+    --popup-background: var(--color-bg-elevated);
+    --tooltip-background: var(--color-bg-elevated);
+    --tooltip-color: var(--text-color-muted);
+    --tooltip-border-color: var(--color-bg-shadow);
+    --popup-border-color: var(--color-bg-shadow);
+
+    /*-------------------
       Sidebar
     --------------------*/
     --sidebar-background: var(--color-bg);

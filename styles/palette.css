@@ -56,6 +56,12 @@
 
     --hsl-bg-highlight: var(--hsl-base03);
     --hsl-bg-muted-highlight: var(--hsl-base04);
+    /* Slightly lighter than --hsl-bg, for surfaces that should stand off the page (tooltips, popups) */
+    --hsl-bg-elevated: 43deg 35% 10%;
+    --color-bg-elevated: hsl(var(--hsl-bg-elevated));
+    /* Darker than --hsl-bg, for defining edges on elevated surfaces */
+    --hsl-bg-shadow: 43deg 35% 3%;
+    --color-bg-shadow: hsl(var(--hsl-bg-shadow));
 
     --color-base02: hsl(var(--hsl-base02));
     --color-base05: hsl(var(--hsl-base05));
