@@ -114,6 +114,9 @@
     --md-codeblock-background-color: hsl(0deg 0% 0% / 1%);
     /* Bullet `-`, ordered `1.`, and checkbox dash markers */
     --md-list-mark-color: var(--fantasy-gold);
+    /* Nested list markers (Inkdrop 6.1+): 2nd and 3rd indent levels */
+    --md-list-mark-2-color: var(--color-green);
+    --md-list-mark-3-color: var(--fantasy-lightblue);
     /* Left bar shown next to `>` blockquote lines in the editor */
     --md-blockquote-border-color: var(--fantasy-gold);
     --md-task-done-text-decoration-color: var(--fantasy-gold);
