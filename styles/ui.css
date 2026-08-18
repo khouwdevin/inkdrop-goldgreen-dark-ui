@@ -10,6 +10,15 @@
     --link-color: hsl(var(--hsl-gold-600) / 80%);
     --link-hover-color: var(--color-gold-600);
     --negative-color: var(--color-red-600);
+    --negative-color-hover: var(--color-red-700);
+    --negative-color-focus: var(--color-red-700);
+    --negative-color-down: var(--color-red-800);
+    --negative-color-active: var(--color-red-800);
+    --positive-color: var(--color-green);
+    --positive-color-hover: var(--color-green-hover);
+    --positive-color-focus: var(--color-green-hover);
+    --positive-color-down: var(--color-green-down);
+    --positive-color-active: var(--color-green-down);
     --warning-color: var(--color-gold-400);
 
     /*-------------------
@@ -75,9 +84,6 @@
     --basic-button-hover-background: var(--color-gold-200);
     --basic-button-down-background: hsl(var(--hsl-base03) / 50%);
     --label-basic-background: none var(--color-green);
-    --positive-button-background-color: var(--color-green);
-    --positive-button-hover-background-color: var(--color-gold-100);
-    --positive-button-text-color: hsl(var(--hsl-fg));
 
     /*-------------------
       Segments (grouped panels)

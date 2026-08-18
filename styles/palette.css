@@ -24,6 +24,11 @@
     /* Secondary accent: green (matches the theme's name) */
     --hsl-green: 152deg 50% 58%;
     --color-green: hsl(var(--hsl-green));
+    /* Darker shades of the same hue, for positive-button hover/down states */
+    --hsl-green-hover: 152deg 50% 48%;
+    --color-green-hover: hsl(var(--hsl-green-hover));
+    --hsl-green-down: 152deg 45% 40%;
+    --color-green-down: hsl(var(--hsl-green-down));
 
     /* Single-shade accent used for tag icons */
     --hsl-blue: 212deg 56% 27%;
